@@ -1,18 +1,17 @@
 /* OfferingCard.css */
 
 /* General styles for the card */
-.offering-card {
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    background-color: transparent;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  /* Hover effect for the card */
-  .offering-card:hover {
-    transform: translateY(-10px);
-    z-index: 10;
-  }
+ .offering-card {
+  transition: transform 0.3s ease, opacity 0.3s ease; 
+  will-change: transform, opacity;
+ }
+
+.offering-card:hover {
+  transform: translateY(-10px); 
+  opacity: 0.9; 
+}
+
+
   
   /* Icon container */
   .icon-container {

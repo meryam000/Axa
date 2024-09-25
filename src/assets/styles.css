@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Default Tailwind CSS breakpoints */
+@media (min-width: 640px) { /* Small screens like phones */ }
+@media (min-width: 768px) { /* Medium screens like tablets */ }
+@media (min-width: 1024px) { /* Large screens like small desktops */ }
+@media (min-width: 1280px) { /* Extra large screens like large desktops */ }
+@media (min-width: 1536px) { /* 2XL screens like extra-large desktops */ }

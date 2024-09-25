@@ -1,0 +1,64 @@
+/* NavigationBar.css */
+.contact-bar {
+  background-color: #3838AA;
+  padding: 1px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.phone-icon {
+  margin-right: 6px;
+  font-size: 12px; /* Adjust size of the phone icon */
+}
+
+.phone-number {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-right: 85px;
+}
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 16px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: white;
+
+  }
+  
+  .nav-list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    max-width: 100%;
+  }
+  .nav-link:hover {
+    color:#C9B085;
+  }
+  .company-logo {
+    object-fit: contain;
+    width: 63px;
+    aspect-ratio: 1 / 1;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  
+  .nav-link {
+    align-self: stretch;
+  margin: auto 0;
+  color: #3838AA; /* Default color (axa-blue) */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+  font-family: Arial, sans-serif; /* Set Arial as the font */
+  font-weight: bold; /* Make the font bold */
+    font-size: 12px;
+  }
+  

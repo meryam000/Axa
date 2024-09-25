@@ -15,7 +15,7 @@
 
 .phone-icon {
   margin-right: 6px;
-  font-size: 12px; /* Adjust size of the phone icon */
+  font-size: 12px; 
 }
 
 .phone-number {
@@ -55,10 +55,10 @@
   .nav-link {
     align-self: stretch;
   margin: auto 0;
-  color: #3838AA; /* Default color (axa-blue) */
-  transition: color 0.3s ease; /* Smooth transition for hover effect */
-  font-family: Arial, sans-serif; /* Set Arial as the font */
-  font-weight: bold; /* Make the font bold */
+  color: #3838AA;
+  transition: color 0.3s ease;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
     font-size: 12px;
   }
   

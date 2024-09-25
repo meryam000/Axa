@@ -1,67 +1,70 @@
 section {
-  display: flex;
-  flex-direction: column;
-  font-weight: bold;
-  background-color: black;
-}
-
-.section-container {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  padding: 32px 20px;
-  width: 100%;
-  min-height: 722px;
-}
-
-.section-container img.background-img {
-  object-fit: cover;
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
-.header-content {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 0;
-  max-width: 422px;
-}
-
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-right: 20px;
-  padding-left: 1.5px;
-}
-
-h1 {
-  font-size: 1.125rem;
-  color: #a8a29e; /* Equivalent to text-stone-400 */
-}
-
-h2 {
-  margin-top: 6px;
-  font-size: 3.75rem;
-  color: #f5f5f4; /* Equivalent to text-gray-100 */
-}
-
-p {
-  margin-top: 3.5rem;
-  font-size: 1.125rem;
-  color: #f5f5f4; /* Equivalent to text-gray-100 */
-}
-
-button {
-  padding: 1.25rem 3rem;
-  margin-top: 1rem;
-  font-size: 0.875rem;
-  background-color: #b91c1c; /* Equivalent to bg-red-800 */
-  border: 1px solid #b91c1c; /* Equivalent to border-red-800 */
-  color: #e7e5e4; /* Equivalent to text-stone-200 */
-}
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    background-color: transparent; /* Make sure the background is transparent */
+  }
+  
+  .section-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 32px 20px;
+    width: 100%;
+    min-height: 722px;
+    background-color: black; /* This black background will act as a fallback if the image doesn't load */
+  }
+  
+  .section-container img.background-img {
+    object-fit: cover;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    /* Remove z-index: -1 to avoid pushing it behind other elements */
+  }
+  
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    max-width: 422px;
+    position: relative; /* Keep this relative so content stays above the image */
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 20px;
+    padding-left: 1.5px;
+  }
+  
+  h1 {
+    font-size: 1.125rem;
+    color: #a8a29e; /* Equivalent to text-stone-400 */
+  }
+  
+  h2 {
+    margin-top: 6px;
+    font-size: 3.75rem;
+    color: #f5f5f4; /* Equivalent to text-gray-100 */
+  }
+  
+  p {
+    margin-top: 3.5rem;
+    font-size: 1.125rem;
+    color: #f5f5f4; /* Equivalent to text-gray-100 */
+  }
+  
+  button {
+    padding: 1.25rem 3rem;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    background-color: #b91c1c; /* Equivalent to bg-red-800 */
+    border: 1px solid #b91c1c; /* Equivalent to border-red-800 */
+    color: #e7e5e4; /* Equivalent to text-stone-200 */
+  }
+  

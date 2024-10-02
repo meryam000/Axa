@@ -23,8 +23,7 @@
           <hr class="border-0 h-[2.5px] w-full max-w-[500px] bg-[#9e827b] mt-5">
           <div class="hero-cta-container">
             <p class="hero-description">
-              Protection sociale et gestion de patrimoine pour les Particuliers,
-              Professions libérales ou Entreprises.
+              Protection sociale et gestion de patrimoine pour les Particuliers, Professions libérales ou Entreprises.
             </p>
             <button class="cta-button">DEMANDER UN DEVIS</button>
           </div>

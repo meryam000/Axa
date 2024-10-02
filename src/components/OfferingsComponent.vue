@@ -62,19 +62,19 @@ export default defineComponent({
         },
         {
           imageSrc: prevoyanceImage,
-          iconSrc: prevoyanceIcon, // Icon for the PRÉVOYANCE card
+          iconSrc: prevoyanceIcon,
           title: 'PRÉVOYANCE',
           description: 'Faire face aux imprévus de la vie en vous assurant des revenus complémentaires (Arrêt de travail, Invalidité, Décès).',
         },
         {
           imageSrc: assuranceImage,
-          iconSrc: assuranceIcon, // Icon for the ASSURANCE EMPRUNTEUR card
+          iconSrc: assuranceIcon,
           title: 'ASSURANCE EMPRUNTEUR',
           description: 'Economiser jusqu\'à 40% en changeant l\'assurance de votre crédit immobilier.',
         },
         {
           imageSrc: perImage,
-          iconSrc: perIcon, // Icon for the PER RETRAITE card
+          iconSrc: perIcon,
           title: 'PER RETRAITE',
           description: 'Préparer sa retraite avec un revenu complémentaire tout en réduisant vos impôts.',
         },

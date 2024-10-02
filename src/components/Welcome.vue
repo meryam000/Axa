@@ -1,7 +1,6 @@
 <template>
     <section>
       <div class="section-container">
-        <!-- Background image -->
         <img
           loading="lazy"
           src="../assets/images/paris.webp"

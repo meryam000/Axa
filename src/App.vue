@@ -3,6 +3,9 @@
     <NavigationBar />
     <Welcome />
     <OfferingsComponent class="flex-grow" />
+    <OptimizationServices/>
+    <Stats/>
+    <AboutUs/>
     <FooterComponent />
   </div>
 </template>
@@ -13,6 +16,9 @@ import NavigationBar from './components/NavigationBar.vue';
 import FooterComponent from './components/FooterComponent.vue';
 import OfferingsComponent from './components/OfferingsComponent.vue';
 import Welcome from './components/Welcome.vue';
+import OptimizationServices from './components/OptimizationServices.vue';
+import AboutUs from './components/AboutUs.vue';
+import Stats from './components/Stats.vue';
 
 export default defineComponent({
   name: 'App',
@@ -21,6 +27,9 @@ export default defineComponent({
     FooterComponent,
     OfferingsComponent,
     Welcome,
+    OptimizationServices,
+    AboutUs,
+    Stats,
   },
 });
 </script>

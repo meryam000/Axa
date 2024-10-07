@@ -1,0 +1,142 @@
+.about-us-section {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    padding: 60px 0;
+  }
+  
+  .about-us-container {
+    width: 100%;
+    padding: 2px 73px;
+  }
+  
+  .about-us-content {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .image-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 43%;
+    margin-left: 0;
+  }
+  
+  
+  .text-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 57%;
+    margin-left: 20px;
+  }
+  
+  .text-content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+  }
+  
+  .section-title {
+    color: #424242;
+    text-align: center;
+    align-self: center;
+    font: 700 32px Arial, sans-serif;
+  }
+  
+  .profile-image-wrapper {
+    background-color: transparent;
+    display: flex;
+    margin-top: 21px;
+    width: 653px;
+    max-width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    padding: 0 80px 243px;
+  }
+  
+  .decorative-image {
+    aspect-ratio: 25.64;
+    object-fit: contain;
+    object-position: center;
+    width: 76px;
+    margin: 0 0 -49px 14px;
+  }
+  
+  .description-wrapper {
+    z-index: 10;
+    display: flex;
+    margin-top: -198px;
+    padding-left: 47px;
+    flex-direction: column;
+  } 
+  
+  .description {
+    color: #3e3b3f;
+    font: 500 22px Inter, sans-serif;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .contact-button {
+    background-color: #000091;
+    color: #fce8d2;
+    font: 700 13px Arial, sans-serif;
+    padding: 20px 17px;
+    border: none;
+    cursor: pointer;
+    width: 172px;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 4px;
+  }
+  
+  @media (max-width: 991px) {
+    .about-us-container {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  
+    .about-us-content {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  
+    .image-column,
+    .text-column {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .profile-image {
+      margin-top: 40px;
+    }
+  
+    .text-content {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .section-title,
+    .description {
+      max-width: 100%;
+    }
+  
+    .profile-image-wrapper {
+      padding: 0 20px 100px;
+    }
+  
+    .decorative-image {
+      margin-bottom: 10px;
+    }
+  
+    .contact-button {
+      white-space: normal;
+      padding: 20px;
+    }
+  }

@@ -9,7 +9,7 @@
     </header>
 
     <!-- Main Content -->
-    <main class="flex flex-col w-full max-w-[1243px] mx-auto mt-8 px-6 md:px-0 flex-grow">
+    <main class="flex flex-col w-full max-w-[1243px] mx-auto mt-8 mb-10 px-6 md:px-0 flex-grow">
       <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <!-- Offering Cards -->
         <OfferingCard
@@ -20,14 +20,8 @@
           :description="offering.description"
           :icon-src="offering.iconSrc"
         />
-
       </div>
     </main>
-
-    <!-- Footer -->
-    <footer class="flex flex-col items-center self-center px-12 pt-16 mt-12 w-full bg-black bg-opacity-0">
-      <hr class="border-0 h-[2.5px] w-full max-w-[80px] bg-[#C9B085]">
-    </footer>
   </section>
 </template>
 

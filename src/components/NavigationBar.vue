@@ -24,7 +24,7 @@
           <a href="/mutuelle" class="nav-link">MUTUELLE</a>
         </li>
         <li>
-          <a href="/assurance-emprenteur" class="nav-link">ASSURANCE EMPRENTEUR</a>
+          <a href="/assurance-emprenteur" class="nav-link">ASSURANCE EMPRUNTEUR</a>
         </li>
         <li>
           <a href="/per-retraite" class="nav-link">PER RETRAITE</a>

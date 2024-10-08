@@ -6,6 +6,7 @@
     <OptimizationServices/>
     <Stats/>
     <AboutUs/>
+    <Partenaire/>
     <FooterComponent />
   </div>
 </template>
@@ -19,6 +20,10 @@ import Welcome from './components/Welcome.vue';
 import OptimizationServices from './components/OptimizationServices.vue';
 import AboutUs from './components/AboutUs.vue';
 import Stats from './components/Stats.vue';
+import Partenaire from './components/Partenaire.vue';
+
+
+
 
 export default defineComponent({
   name: 'App',
@@ -30,6 +35,7 @@ export default defineComponent({
     OptimizationServices,
     AboutUs,
     Stats,
+    Partenaire,
   },
 });
 </script>
@@ -46,6 +52,6 @@ html, body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  width: 100%; /* Make sure the app takes full width */
+  width: 100%;
 }
 </style>

@@ -1,14 +1,14 @@
 .statistics-section {
     width: 100%;
-    max-width: 817px;
     margin: 0 auto;
     padding: 40px 0;
+    background-color: #00008F;
   }
   
   .statistics-container {
     display: flex;
-    gap: 20px;
-    justify-content: space-around;
+    gap: 15%;
+    justify-content: center;
   }
   
   .stat-item {

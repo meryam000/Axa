@@ -1,4 +1,4 @@
-/* NavigationBar.css */
+/* Contact Bar */
 .contact-bar {
   background-color: #3838AA;
   padding: 1px;
@@ -15,7 +15,7 @@
 
 .phone-icon {
   margin-right: 6px;
-  font-size: 12px; 
+  font-size: 12px;
 }
 
 .phone-number {
@@ -24,42 +24,119 @@
   font-weight: bold;
   margin-right: 85px;
 }
-.nav-container {
-    display: flex;
-    flex-direction: column;
-    padding: 0 16px;
-    font-size: 14px;
-    font-weight: 600;
-    background-color: white;
-    
 
+/* Navigation Header */
+.nav-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+  background-color: white;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.company-logo {
+  object-fit: contain;
+  width: 63px;
+  aspect-ratio: 1 / 1;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 20px;
+}
+
+/* Burger Button */
+.burger-button {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #3838AA;
+}
+
+/* Nav Container */
+.nav-container {
+  display: flex;
+  justify-content: center; /* Center the nav list */
+  align-items: center;
+  padding: 0 16px;
+  background-color: white;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-container.show-menu {
+  display: block;
+  position: absolute;
+  top: 60px; /* Adjust according to your layout */
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+/* Navigation List */
+.nav-list {
+  display: flex;
+  gap: 45px;
+  align-items: center;
+}
+
+.nav-link {
+  color: #3838AA;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #C9B085;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-container.show-menu .nav-list {
+    display: flex;
+  }
+
+  .burger-button {
+    display:flex;;
+    justify-content: left;
+    background-color: white;
+    padding: 10px;
+    margin-left: 50%;
+  }
+  .logo-container {
+    display: flex;
+    justify-content: flex-start; /* Force the logo to the left */
+  }
+  .nav-header{
+    display: space-between;
+  }
+ 
+}
+
+@media (min-width: 769px) {
+  .burger-button {
+    display: none;
   }
   
   .nav-list {
     display: flex;
-    gap: 45px;
+    justify-content: center;
+    margin-left: 0;
     align-items: center;
-    max-width: 100%;
-    margin-left: 16%;
   }
-  .nav-link:hover {
-    color:#C9B085;
-  }
-  .company-logo {
-    object-fit: contain;
-    width: 63px;
-    aspect-ratio: 1 / 1;
-    margin-top: 2px;
-    margin-bottom: 2px;
-  }
-  
-  .nav-link {
-    align-self: stretch;
-  margin: auto 0;
-  color: #3838AA;
-  transition: color 0.3s ease;
-  font-family: Arial, sans-serif;
-  font-weight: bold;
-    font-size: 12px;
-  }
-  
+}

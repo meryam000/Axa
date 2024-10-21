@@ -101,32 +101,50 @@
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-  .nav-list {
-    display: none;
-    flex-direction: column;
-    text-align: center;
+  .nav-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px; 
+    background-color: white;
+    width: 100%; 
+    box-sizing: border-box;
   }
 
-  .nav-container.show-menu .nav-list {
+  .logo-container {
     display: flex;
+    justify-content: flex-start; /* Keeps the logo aligned to the left */
+    align-items: center;
   }
 
   .burger-button {
-    display:flex;;
-    justify-content: left;
-    background-color: white;
+    display: block;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #3838AA;
     padding: 10px;
-    margin-left: 50%;
+    margin-left: 70%;
   }
-  .logo-container {
-    display: flex;
-    justify-content: flex-start; /* Force the logo to the left */
+
+  .nav-list {
+    display: none; /* Hides the nav-list until the burger button is clicked */
   }
-  .nav-header{
-    display: space-between;
+
+  .nav-container.show-menu .nav-list {
+    display: flex; /* Shows the nav-list when the burger button is clicked */
+    flex-direction: column;
+    gap: 20px;
+    background-color: white; /* Optional: Ensures the background is white when the menu expands */
+    position: absolute;
+    top: 60px; /* Adjust based on the height of the header */
+    left: 0;
+    right: 0;
+    padding: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow for better visibility */
   }
- 
 }
+
 
 @media (min-width: 769px) {
   .burger-button {

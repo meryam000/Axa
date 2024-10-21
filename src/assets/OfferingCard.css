@@ -59,6 +59,7 @@
     .offering-card {
       max-width: 100%;
       height: auto;
+      margin: auto;
     }
   
     .offering-card img {

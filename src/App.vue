@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="min-h-screen w-full flex flex-col">
+  <div id="app">
     <NavigationBar />
     <Welcome />
     <OfferingsComponent class="flex-grow" />

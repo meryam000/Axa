@@ -1,12 +1,7 @@
 <template>
   <div id="app">
     <NavigationBar />
-    <Welcome />
-    <OfferingsComponent class="flex-grow" />
-    <OptimizationServices/>
-    <Stats/>
-    <AboutUs/>
-    <Partenaire/>
+    <router-view />  <!-- This will load the components based on the route -->
     <FooterComponent />
   </div>
 </template>
@@ -15,27 +10,12 @@
 import { defineComponent } from 'vue';
 import NavigationBar from './components/NavigationBar.vue';
 import FooterComponent from './components/FooterComponent.vue';
-import OfferingsComponent from './components/OfferingsComponent.vue';
-import Welcome from './components/Welcome.vue';
-import OptimizationServices from './components/OptimizationServices.vue';
-import AboutUs from './components/AboutUs.vue';
-import Stats from './components/Stats.vue';
-import Partenaire from './components/Partenaire.vue';
-
-
-
 
 export default defineComponent({
   name: 'App',
   components: {
     NavigationBar,
     FooterComponent,
-    OfferingsComponent,
-    Welcome,
-    OptimizationServices,
-    AboutUs,
-    Stats,
-    Partenaire,
   },
 });
 </script>
@@ -43,7 +23,7 @@ export default defineComponent({
 <style scoped>
 html, body {
   height: 100%;
-  width: 100%; /* Ensure full width */
+  width: 100%;
   margin: 0;
   padding: 0;
 }

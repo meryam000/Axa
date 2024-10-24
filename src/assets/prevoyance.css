@@ -1,0 +1,132 @@
+.prevoyance-hero {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    overflow: hidden;
+  }
+  
+  .prevoyance-hero-container {
+    width: 100%;
+  }
+  
+  .prevoyance-content-wrapper {
+    width: 100%;
+  }
+  
+  .prevoyance-hero-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 595px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 52px 80px;
+  }
+  
+  .prevoyance-hero-background {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+    opacity:90%;
+
+  }
+  
+  .prevoyance-text-content {
+    position: relative;
+    display: flex;
+    width: 662px;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .prevoyance-title {
+    color: #BEB8B4;
+    font-size: 13px;
+  }
+  
+  .prevoyance-subtitle {
+    color: #DFE4ED;
+    font-size: 17px;
+    margin-top: 16px;
+  }
+  
+  .prevoyance-company-logo {
+    aspect-ratio: 500;
+    object-fit: contain;
+    object-position: center;
+    width: 528px;
+    margin-top: 9px;
+    max-width: 100%;
+  }
+  
+  .prevoyance-main-heading {
+    color: #EAEBEF;
+    font-size: 45px;
+    text-align: center;
+    width: 100%;
+    margin-top: 17px;
+  }
+  
+  .prevoyance-insurance-icon {
+    aspect-ratio: 1.17;
+    object-fit: contain;
+    object-position: center;
+    width: 56px;
+    margin-top: 70px;
+  }
+  
+  .prevoyance-description {
+    color: #DEDFE1;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    margin-top: 36px;
+  }
+  
+  .prevoyance-cta-button {
+    background: none;
+    border: none;
+    margin-top: 37px;
+    width: 229px;
+    cursor: pointer;
+  }
+  
+  .prevoyance-button-text {
+    background-color: #9B2515;
+    color: #E1C1BC;
+    font-size: 12px;
+    padding: 20px 34px;
+    display: block;
+  }
+  
+  @media (max-width: 991px) {
+    .prevoyance-hero-content {
+      padding: 0 20px;
+    }
+  
+    .prevoyance-subtitle {
+      max-width: 100%;
+    }
+  
+    .prevoyance-main-heading {
+      font-size: 40px;
+    }
+  
+    .prevoyance-insurance-icon {
+      margin-top: 40px;
+    }
+  
+    .prevoyance-description {
+      max-width: 100%;
+    }
+  
+    .prevoyance-button-text {
+      padding: 20px;
+    }
+  }
+  

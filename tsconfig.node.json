@@ -4,6 +4,8 @@
     "lib": ["ES2023"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "types": ["vite/client", "vue-router"],
+
 
     /* Bundler mode */
     "moduleResolution": "bundler",

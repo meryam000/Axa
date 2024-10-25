@@ -1,8 +1,9 @@
 <template>
   <article class="offering-card flex flex-col pb-2 font-bold bg-opacity-0 max-w-[317px] h-[360px]">
     <div class="relative flex flex-col h-full px-4 py-3.5 bg-white rounded-md shadow-[0px_3px_3px_rgba(0,0,0,0.25)]">
-      <!-- Dynamic Image (Fixed size with object-cover) -->
+      <!-- Dynamic Image (Fixed size with object-cover), displayed only if imageSrc is provided -->
       <img
+        v-if="imageSrc"
         loading="lazy"
         :src="imageSrc"
         class="w-full h-[150px] rounded-sm object-cover"
@@ -49,7 +50,7 @@ export default defineComponent({
     },
     imageSrc: {
       type: String,
-      required: true,
+      required: false, // Make imageSrc optional
     },
     iconSrc: {
       type: String,

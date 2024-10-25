@@ -29,9 +29,18 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    object-position: left;
-    opacity:90%;
+    object-position: center;
+    opacity:100%;
 
+  }
+  
+  .transparent-bg {
+    background-color: rgba(248, 241, 241, 0.35);
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 860px;
+    box-sizing: border-box;
   }
   
   .prevoyance-text-content {
@@ -41,15 +50,16 @@
     max-width: 100%;
     flex-direction: column;
     align-items: center;
+    margin-top: 100px;
   }
   
   .prevoyance-title {
-    color: #BEB8B4;
+    color: #c9b085;
     font-size: 13px;
   }
   
   .prevoyance-subtitle {
-    color: #DFE4ED;
+    color: white;
     font-size: 17px;
     margin-top: 16px;
   }
@@ -64,8 +74,8 @@
   }
   
   .prevoyance-main-heading {
-    color: #EAEBEF;
-    font-size: 45px;
+    color: white;
+    font-size: 40px;
     text-align: center;
     width: 100%;
     margin-top: 17px;
@@ -77,6 +87,7 @@
     object-position: center;
     width: 56px;
     margin-top: 70px;
+    margin: 0 auto 10px;  
   }
   
   .prevoyance-description {
@@ -103,7 +114,17 @@
     padding: 20px 34px;
     display: block;
   }
-  
+
+  .offering-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* space between cards */
+    padding: 20px; /* space between container and page edges */
+    max-width: 1000px; /* optional, limit the width of the container */
+    margin: 0 auto; /* center container on the page */
+}
+
   @media (max-width: 991px) {
     .prevoyance-hero-content {
       padding: 0 20px;

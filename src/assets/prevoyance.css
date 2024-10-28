@@ -1,153 +1,236 @@
+/* Prevoyance Hero Section */
 .prevoyance-hero {
-    font-family: Inter, sans-serif;
-    font-weight: 600;
-    overflow: hidden;
-  }
-  
-  .prevoyance-hero-container {
-    width: 100%;
-  }
-  
-  .prevoyance-content-wrapper {
-    width: 100%;
-  }
-  
-  .prevoyance-hero-content {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    min-height: 595px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    padding: 52px 80px;
-  }
-  
-  .prevoyance-hero-background {
-    position: absolute;
-    inset: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-    opacity:100%;
-
-  }
-  
-  .transparent-bg {
-    background-color: rgba(248, 241, 241, 0.35);
-    padding: 30px;
-    border-radius: 10px;
-    display: inline-block;
-    width: 860px;
-    box-sizing: border-box;
-  }
-  
-  .prevoyance-text-content {
-    position: relative;
-    display: flex;
-    width: 662px;
-    max-width: 100%;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-  }
-  
-  .prevoyance-title {
-    color: #c9b085;
-    font-size: 13px;
-  }
-  
-  .prevoyance-subtitle {
-    color: white;
-    font-size: 17px;
-    margin-top: 16px;
-  }
-  
-  .prevoyance-company-logo {
-    aspect-ratio: 500;
-    object-fit: contain;
-    object-position: center;
-    width: 528px;
-    margin-top: 9px;
-    max-width: 100%;
-  }
-  
-  .prevoyance-main-heading {
-    color: white;
-    font-size: 40px;
-    text-align: center;
-    width: 100%;
-    margin-top: 17px;
-  }
-  
-  .prevoyance-insurance-icon {
-    aspect-ratio: 1.17;
-    object-fit: contain;
-    object-position: center;
-    width: 56px;
-    margin-top: 70px;
-    margin: 0 auto 10px;  
-  }
-  
-  .prevoyance-description {
-    color: #DEDFE1;
-    font-size: 18px;
-    font-weight: 500;
-    text-align: center;
-    width: 100%;
-    margin-top: 36px;
-  }
-  
-  .prevoyance-cta-button {
-    background: none;
-    border: none;
-    margin-top: 37px;
-    width: 229px;
-    cursor: pointer;
-  }
-  
-  .prevoyance-button-text {
-    background-color: #9B2515;
-    color: #E1C1BC;
-    font-size: 12px;
-    padding: 20px 34px;
-    display: block;
-  }
-
-  .offering-cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px; /* space between cards */
-    padding: 20px; /* space between container and page edges */
-    max-width: 1000px; /* optional, limit the width of the container */
-    margin: 0 auto; /* center container on the page */
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  overflow: hidden;
 }
 
-  @media (max-width: 991px) {
-    .prevoyance-hero-content {
-      padding: 0 20px;
-    }
-  
-    .prevoyance-subtitle {
-      max-width: 100%;
-    }
-  
-    .prevoyance-main-heading {
-      font-size: 40px;
-    }
-  
-    .prevoyance-insurance-icon {
-      margin-top: 40px;
-    }
-  
-    .prevoyance-description {
-      max-width: 100%;
-    }
-  
-    .prevoyance-button-text {
-      padding: 20px;
-    }
+.prevoyance-hero-container {
+  width: 100%;
+}
+
+.prevoyance-content-wrapper {
+  width: 100%;
+}
+
+.prevoyance-hero-content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 595px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 52px 80px;
+}
+
+.prevoyance-hero-background {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 100%;
+}
+
+.transparent-bg {
+  background-color: rgba(255, 255, 255, 0.35);
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 100%;
+  max-width: 860px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.prevoyance-text-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 662px;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.prevoyance-title {
+  color: #c9b085;
+  font-size: 13px;
+}
+
+.prevoyance-subtitle {
+  color: white;
+  font-size: 17px;
+  margin-top: 16px;
+}
+
+.title-keys{
+  color:#00008F;
+  font-size: 37px;
+  margin-top: 26px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.prevoyance-main-heading {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+  margin-top: 17px;
+}
+
+.prevoyance-insurance-icon {
+  width: 56px;
+  margin: 0 auto 10px;
+  display: block;
+}
+
+.prevoyance-description {
+  color: #dedfe1;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.prevoyance-cta-button {
+  background: none;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.prevoyance-button-text {
+  background-color: #9b2515;
+  color: #e1c1bc;
+  font-size: 12px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  display: block;
+}
+
+.offering-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+  .prevoyance-hero-content {
+    padding: 0 20px;
   }
-  
+
+  .prevoyance-subtitle {
+    font-size: 15px;
+  }
+
+  .prevoyance-main-heading {
+    font-size: 32px;
+  }
+
+  .prevoyance-description {
+    font-size: 16px;
+  }
+
+  .prevoyance-button-text {
+    padding: 15px;
+  }
+
+  .transparent-bg {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+.offering-cards-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.offering-card {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  transition: all 0.3s ease;
+}
+
+.offering-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.offering-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3838AA;
+  margin-top: 10px;
+}
+
+.offering-description {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.view-more-button {
+  background-color: #e0e4e8;
+  border: none;
+  border-radius: 5px;
+  color: #333;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  padding: 8px 12px;
+  width: 100%;
+}
+
+.view-more-button:hover {
+  background-color: #c43126;
+}
+
+.offering-more-info {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+  display: block;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.offering-card .offering-more-info {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .prevoyance-main-heading {
+    font-size: 28px;
+  }
+
+  .prevoyance-description {
+    font-size: 14px;
+  }
+
+  .prevoyance-hero-content {
+    padding: 20px;
+  }
+
+  .transparent-bg {
+    width: 100%;
+    padding: 15px;
+  }
+}

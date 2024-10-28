@@ -24,42 +24,78 @@
           </div>
         </article>
       </div>
+       <h1 class="title-keys">Les 3 points clés de votre prévoyance individuelle</h1>
+      <!-- Cards for Offerings -->
+      <div class="offering-cards-container">
+        <!-- Card 1 -->
+        <div class="offering-card">
+          <img src="../assets/icons/icon1.svg" class="offering-icon" />
+          <h4 class="offering-title">Arrêt de Travail</h4>
+          <p class="offering-description">Indemnités journalières forfaitaires, Remboursement des Frais Professionnels</p>
+          <button class="view-more-button" @click="toggleViewMore('card1')">
+            View More
+          </button>
+          <p v-if="showMore.card1" class="offering-more-info">En cas d’arrêt de travail, la garantie indemnités journalières vous permet de maintenir vos revenus jusqu’à votre reprise du travail.
+Nous définissons le montant et la franchise (délai avant indemnisation) pour compléter les prestations de votre régime obligatoire.
+Tout ou partie de vos charges professionnelles peuvent également être couvertes par le contrat afin de ne pas mettre en péril votre activité professionnelle.</p>
+        </div>
 
-      <!-- Container for Offering Cards -->
-      <div class="offering-cards-container grid grid-cols-3 mt-6 ml-10">
-        <OfferingCard
-          title="Title 1"
-          description="Description for the first offering card."
-          iconSrc="../assets/icons/icon1.svg"
-        />
-        <OfferingCard
-          title="Title 2"
-          description="Description for the second offering card."
-          iconSrc="../assets/icons/icon2.svg"
-        />
-        <OfferingCard
-          title="Title 3"
-          description="Description for the third offering card."
-          iconSrc="../assets/icons/icon3.svg"
-        />
+        <!-- Card 2 -->
+        <div class="offering-card">
+          <img src="../assets/icons/icon2.svg"  class="offering-icon" />
+          <h4 class="offering-title">Invalidité</h4>
+          <p class="offering-description">pension versée jusqu’à 67 ans , capital rééducation ou maladie grave</p>
+          <button class="view-more-button" @click="toggleViewMore('card2')">
+            View More
+          </button>
+          <p v-if="showMore.card2" class="offering-more-info">En cas d’accident ou de maladie longue, vous pouvez bénéficier d’une rente et/ou d’un capital invalidité qui vous sont versés jusqu’à l’âge légal de la retraite afin de sécuriser votre niveau de vie sans nécessairement piocher dans votre épargne.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="offering-card">
+          <img src="../assets/icons/icon3.svg"class="offering-icon" />
+          <h4 class="offering-title">Décès</h4>
+          <p class="offering-description">Pension de conjoint, Rente éducation, Capital</p>
+          <button class="view-more-button" @click="toggleViewMore('card3')">
+            View More
+          </button>
+          <p v-if="showMore.card3" class="offering-more-info">En cas de décès vous pouvez protéger vos proches et ainsi assurer une continuité de revenus au sein de votre foyer.
+            Ces prestations peuvent être de 3 natures :
+
+            versement d’un capital à vos proches
+            versement d’une pension de conjoint
+            versement d’une rente éducation à vos enfants jusqu’à leurs 26 ans (sans condition de poursuite d’études).</p>
+        </div>
       </div>
     </div>
+    <h1 class="title-keys">Assurance Prévoyance : qui est concerné ?
+    </h1>
+
   </section>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, ref } from 'vue';
 import '../assets/prevoyance.css';
-import OfferingCard from './OfferingCard.vue';
-import NavigationBar from './NavigationBar.vue';
-import FooterComponent from './FooterComponent.vue';
 
 export default defineComponent({
   name: 'Prevoyance',
-  components: {
-    NavigationBar,
-    FooterComponent,
-    OfferingCard,
+  setup() {
+    const showMore = ref({
+      card1: false,
+      card2: false,
+      card3: false,
+    });
+
+    const toggleViewMore = (card: 'card1' | 'card2' | 'card3') => {
+  showMore.value[card] = !showMore.value[card];
+};
+
+
+    return {
+      showMore,
+      toggleViewMore,
+    };
   },
 });
 </script>

@@ -10,7 +10,7 @@
     padding-bottom:8vw
 }
 div.et_pb_section.et_pb_section_0{
-    background-image:linear-gradient(180deg,rgba(0,43,153,.6) 0,rgba(0,19,46,.33) 100%),url(https://assuranceprevoyanc106a0.zapwp.com/q:intelligent/r:0/wp:1/w:1/u:https://assurance-prevoyance-mutuelle.com/wp-content/uploads/2024/02/AdobeStock_138835748-scaled.jpeg)!important
+    background-image:linear-gradient(180deg,rgba(0,43,153,.6) 0,rgba(0,19,46,.33) 100%),url(../assets/images/per.jpeg)!important
 }
 .et_pb_row{
     width:80%;
@@ -461,7 +461,6 @@ strong{
     font-weight:500;
     font-size:15px;
     line-height:1.8em;
-    background-color:#f8f5f1;
     padding-top:40px!important;
     padding-right:20px!important;
     padding-bottom:40px!important;
@@ -472,7 +471,6 @@ strong{
     font-weight:500;
     font-size:15px;
     line-height:1.8em;
-    background-color:#f8f5f1;
     padding-top:40px!important;
     padding-right:20px!important;
     padding-bottom:40px!important;
@@ -483,7 +481,6 @@ strong{
     font-weight:500;
     font-size:15px;
     line-height:1.8em;
-    background-color:#f8f5f1;
     padding-top:40px!important;
     padding-right:20px!important;
     padding-bottom:40px!important;
@@ -546,43 +543,6 @@ strong{
 .et_pb_text_4.et_pb_module{
     margin-left:auto!important;
     margin-right:auto!important
-}
-h2{
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    -ms-text-size-adjust:100%;
-    -webkit-text-size-adjust:100%;
-    vertical-align:baseline;
-    background:0 0
-}
-h2{
-    color:#333;
-    padding-bottom:10px;
-    line-height:1em;
-    font-weight:500
-}
-h2{
-    font-size:26px
-}
-h2{
-    color:#000
-}
-h2{
-    font-family:Poppins,Helvetica,Arial,Lucida,sans-serif
-}
-h2{
-    font-size:18px;
-    margin-bottom:6px
-}
-.et_pb_text_4 h2{
-    font-family:Poppins,Helvetica,Arial,Lucida,sans-serif;
-    font-weight:600;
-    font-size:40px;
-    color:#000092!important;
-    line-height:1.3em
 }
 .et_pb_main_blurb_image{
     display:inline-block;
@@ -1010,7 +970,7 @@ p:not(.has-background):last-of-type{
 
 .material-icons {
     font-weight:900!important;
-    color:#fff;
+    color:#0d00ff;
     font-size:51px
 }
 

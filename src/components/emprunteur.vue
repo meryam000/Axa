@@ -1,22 +1,37 @@
 <template>
 
-<div class="space"></div>
-<div class="et_pb_row et_pb_row_2 snipcss-E7XAl">
-    <div class="et_pb_column et_pb_column_4_4 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough et-last-child">
-        <div class="et_pb_module et_pb_text et_pb_text_5 et_pb_text_align_center et_pb_bg_layout_light">
-            <div class="et_pb_text_inner">
-                <h2>L'assurance emprunteur est un élément crucial de votre prêt immobilier, 
-                    pouvant représenter jusqu'à 40% du coût total de votre crédit immobilier. </h2>
-                <h2>Il est désormais possible de changer d'assurance de prêt immobilier à tout moment, 
-                    offrant ainsi l'opportunité de faire de substantielles économies. </h2>
-                <h2>Que vous soyez en phase d'achat immobilier ou que vous ayez déjà souscrit un prêt immobilier, 
-                    on vous accompagne pour les démarches permettant de changer votre assurance emprunteur
-                </h2>
+<div class="et_pb_section et_pb_section_0 et_pb_with_background et_section_regular snipcss-k23O5">
+    <div class="et_pb_row et_pb_row_0">
+        <div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
+            <div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_center et_pb_bg_layout_dark">
+                <div class="et_pb_text_inner">
+                    <h1>ASSURANCE EMPRUNTEUR</h1>
+                </div>
+            </div>
+            
+            <div class="et_pb_module et_pb_divider et_pb_divider_0 et_pb_divider_position_ et_pb_space">
+                <div class="et_pb_divider_internal"></div>
+            </div>
+        </div>
+    </div>
+    <div class="et_pb_row et_pb_row_1 et_pb_equal_columns">
+        <div class="et_pb_row et_pb_row_2 snipcss-E7XAl">
+            <div class="et_pb_column et_pb_column_4_4 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                <div class="et_pb_module et_pb_text et_pb_text_5 et_pb_text_align_center et_pb_bg_layout_light">
+                    <div class="et_pb_text_inner">
+                        <h2>L'assurance emprunteur est un élément crucial de votre prêt immobilier, 
+                            pouvant représenter jusqu'à 40% du coût total de votre crédit immobilier. </h2>
+                        <h2>Il est désormais possible de changer d'assurance de prêt immobilier à tout moment, 
+                            offrant ainsi l'opportunité de faire de substantielles économies. </h2>
+                        <h2>Que vous soyez en phase d'achat immobilier ou que vous ayez déjà souscrit un prêt immobilier, 
+                            on vous accompagne pour les démarches permettant de changer votre assurance emprunteur
+                        </h2>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
 
 <div class="et_pb_row et_pb_row_2 snipcss-E7XAl">
     <div class="et_pb_column et_pb_column_4_4 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough et-last-child">
@@ -115,7 +130,7 @@
 <div class="et_pb_row et_pb_row_9 snipcss-3jUGy">
     <div class="et_pb_column et_pb_column_1_2 et_pb_column_12  et_pb_css_mix_blend_mode_passthrough">
         <div class="et_pb_module et_pb_image et_pb_image_0">
-            <span class="et_pb_image_wrap "><img src="https://assuranceprevoyanc106a0.zapwp.com/q:i/r:0/wp:1/w:1/u:https://assurance-prevoyance-mutuelle.com/wp-content/uploads/2024/02/11704291023_.pic_.webp" data-src="" width="489" height="262" alt="" title="11704291023_.pic_" class="wps-ic-cdn wp-image-530 wpc-excluded-adaptive wpc-lazy-skipped" wpc-data="excluded-adaptive"></span>
+            <span class="et_pb_image_wrap "><img src="../assets/images/paris.webp" data-src="" width="489" height="262" alt="" title="11704291023_.pic_" class="wps-ic-cdn wp-image-530 wpc-excluded-adaptive wpc-lazy-skipped" wpc-data="excluded-adaptive"></span>
         </div>
     </div>
     <div class="et_pb_column et_pb_column_1_2 et_pb_column_13  et_pb_css_mix_blend_mode_passthrough et-last-child">

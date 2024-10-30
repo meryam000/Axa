@@ -1,24 +1,25 @@
 <template>
-    <section class="statistics-section" ref="statisticsSection">
-      <div class="statistics-container">
-        <div class="stat-item">
-          <img loading="lazy" src="../assets/icons/stat1.svg" alt="icon" class="stat-icon" />
-          <h2 class="stat-value">{{ currentValue1 }}</h2>
-          <p class="stat-label">Ans d'expertise</p>
-        </div>
-        <div class="stat-item">
-          <img loading="lazy" src="../assets/icons/stat2.svg" alt="icon" class="stat-icon" />
-          <h2 class="stat-value">{{ currentValue2 }}</h2>
-          <p class="stat-label">Adhérents</p>
-        </div>
-        <div class="stat-item">
-          <img loading="lazy" src="../assets/icons/stat3.svg" alt="icon" class="stat-icon" />
-          <h2 class="stat-value">{{ currentValue3 }}</h2>
-          <p class="stat-label">Adhésions</p>
-        </div>
+  <section class="statistics-section" ref="statisticsSection">
+    <div class="statistics-container">
+      <div class="stat-item">
+        <img loading="lazy" src="../assets/icons/stat1.svg" alt="icon" class="stat-icon" />
+        <h2 class="stat-value">{{ currentValue1 }}</h2>
+        <p class="stat-label">Ans d'expertise</p>
       </div>
-    </section>
-  </template>
+      <div class="stat-item">
+        <img loading="lazy" src="../assets/icons/stat2.svg" alt="icon" class="stat-icon" />
+        <h2 class="stat-value">{{ currentValue2 }}</h2>
+        <p class="stat-label">Adhérents</p>
+      </div>
+      <div class="stat-item">
+        <img loading="lazy" src="../assets/icons/stat3.svg" alt="icon" class="stat-icon" />
+        <h2 class="stat-value">{{ currentValue3 }}</h2>
+        <p class="stat-label">Adhésions</p>
+      </div>
+    </div>
+  </section>
+</template>
+
   
   <script lang="ts">
   import { defineComponent, ref, onMounted } from 'vue';

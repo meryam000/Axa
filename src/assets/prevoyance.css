@@ -114,14 +114,16 @@
   display: block;
 }
 
-.offering-cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-  max-width: 1000px;
-  margin: 0 auto;
+@media (max-width: 991px) {
+  .offering-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 }
 
 /* Responsive Styles */
@@ -154,20 +156,26 @@
 
 .offering-cards-container {
   display: flex;
-  gap: 20px;
   justify-content: center;
+  gap: 20px;
   padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .offering-card {
-  background-color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
   text-align: center;
-  width: 250px;
+  width: 100%;
   transition: all 0.3s ease;
 }
 
+@media (max-width: 991px) {
+  .offering-card {
+    text-align: center;
+    width: 80%;
+    transition: all 0.3s ease;
+  }
+}
 .offering-icon {
   width: 50px;
   height: 50px;
@@ -201,6 +209,7 @@
 
 .view-more-button:hover {
   background-color: #c43126;
+  color: aliceblue;
 }
 
 .offering-more-info {

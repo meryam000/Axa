@@ -1,6 +1,6 @@
 <template>
   <div class="header-container">
-    <!-- Contact Bar -->
+    <!-- Contact Bar (Phone Number) -->
     <div class="contact-bar">
       <div class="contact-info">
         <i class="fas fa-phone phone-icon"></i>
@@ -8,46 +8,101 @@
       </div>
     </div>
 
-    <!-- Navigation Bar with Logo and Burger Menu -->
-    <div class="nav-header">
-      <a href="/" aria-label="Home" class="logo-container">
-        <img loading="lazy" src="../assets/images/axax logo.png" class="company-logo" alt="Company logo" />
-      </a>
+    <!-- Transition for Header Minimization -->
+    <transition name="expand">
+      <div :class="['nav-header', { minimized: isMinimized }]">
+        <!-- Logo -->
+        <a href="/" aria-label="Home" :class="['logo-container', { minimized: isMinimized }]">
+          <img loading="lazy" src="../assets/images/axax logo.png" class="company-logo" alt="Company logo" />
+        </a>
 
-      <button class="burger-button" @click="toggleMenu">
-        <i class="fas fa-bars"></i>
-      </button>
-    
+        <!-- Desktop Navigation (visible only on desktop) -->
+        <ul class="nav-list">
+          <li>
+            <router-link to="/" class="nav-link" :class="{ active: isActive('/') }">ACCUEIL</router-link>
+          </li>
+          <li>
+            <router-link to="/prevoyance" class="nav-link" :class="{ active: isActive('/prevoyance') }">PRÉVOYANCE</router-link>
+          </li>
+          <li>
+            <router-link to="/mutuelle" class="nav-link" :class="{ active: isActive('/mutuelle') }">MUTUELLE</router-link>
+          </li>
+          <li>
+            <router-link to="/assurance-emprunteur" class="nav-link" :class="{ active: isActive('/assurance-emprunteur') }">ASSURANCE EMPRUNTEUR</router-link>
+          </li>
+          <li>
+            <router-link to="/per-retraite" class="nav-link" :class="{ active: isActive('/per-retraite') }">PER RETRAITE</router-link>
+          </li>
+          <li>
+            <router-link to="/contact" class="nav-link" :class="{ active: isActive('/contact') }">CONTACT</router-link>
+          </li>
+        </ul>
 
-    <!-- Nav Menu -->
-    <nav :class="['nav-container', { 'show-menu': isMenuOpen }]">
-      <ul class="nav-list">
-        <li><a href="/" class="nav-link">ACCUEIL</a></li>
-        <li><a href="/prevoyance" class="nav-link">PREVOYANCE</a></li>
-        <li><a href="/mutuelle" class="nav-link">MUTUELLE</a></li>
-        <li><a href="/assurance-emprunteur" class="nav-link">ASSURANCE EMPRUNTEUR</a></li>
-        <li><a href="/per-retraite" class="nav-link">PER RETRAITE</a></li>
-        <li><a href="/contact" class="nav-link">CONTACT</a></li>
+        <!-- Sidebar Toggle Button for Mobile -->
+        <button class="sidebar-button" @click="toggleSidebar">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </transition>
+
+    <!-- Sidebar Menu for Mobile -->
+    <nav :class="['sidebar', { 'show-sidebar': isSidebarOpen }]">
+      <ul class="sidebar-list">
+        <li>
+          <router-link to="/" class="sidebar-link" :class="{ active: isActive('/') }">ACCUEIL</router-link>
+        </li>
+        <li>
+          <router-link to="/prevoyance" class="sidebar-link" :class="{ active: isActive('/prevoyance') }">PRÉVOYANCE</router-link>
+        </li>
+        <li>
+          <router-link to="/mutuelle" class="sidebar-link" :class="{ active: isActive('/mutuelle') }">MUTUELLE</router-link>
+        </li>
+        <li>
+          <router-link to="/assurance-emprunteur" class="sidebar-link" :class="{ active: isActive('/assurance-emprunteur') }">ASSURANCE EMPRUNTEUR</router-link>
+        </li>
+        <li>
+          <router-link to="/per-retraite" class="sidebar-link" :class="{ active: isActive('/per-retraite') }">PER RETRAITE</router-link>
+        </li>
+        <li>
+          <router-link to="/contact" class="sidebar-link" :class="{ active: isActive('/contact') }">CONTACT</router-link>
+        </li>
       </ul>
     </nav>
+
+    <!-- Background Overlay for Sidebar on Mobile -->
+    <div v-if="isSidebarOpen" class="overlay" @click="toggleSidebar"></div>
   </div>
-</div>
 </template>
 
-<script lang="ts">
-import { defineComponent, ref } from 'vue';
-import '../assets/NavigationBar.css';
+<script setup lang="ts">
+import { ref, onMounted, onBeforeUnmount } from 'vue';
+import { useRoute } from 'vue-router';
+import '../assets/NavigationBar.css'; // Import CSS file here
 
-export default defineComponent({
-  name: 'NavigationBar',
-  setup() {
-    const isMenuOpen = ref(false);
+const isSidebarOpen = ref(false);
+const isMinimized = ref(false); // State to track header minimization based on scroll
+const route = useRoute();
 
-    const toggleMenu = () => {
-      isMenuOpen.value = !isMenuOpen.value;
-    };
+const toggleSidebar = () => {
+  isSidebarOpen.value = !isSidebarOpen.value;
+};
 
-    return { isMenuOpen, toggleMenu };
-  },
+// Check if a route is active for highlighting
+const isActive = (path: string) => {
+  return route.path === path;
+};
+
+// Handle scroll event
+const handleScroll = () => {
+  isMinimized.value = window.scrollY > 50; // Adjust threshold as needed
+};
+
+// Add event listener on mount and remove on unmount
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener('scroll', handleScroll);
 });
 </script>

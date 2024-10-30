@@ -1,16 +1,16 @@
 <template>
-  <section class="flex flex-col bg-zinc-100 flex-grow w-full">
+  <section class="flex flex-col bg-zinc-100 flex-grow ">
     <!-- Header -->
-    <header class="flex flex-col items-center justify-center w-full text-3xl font-bold text-center text-neutral-700 px-6 md:px-0">
+    <header class="flex flex-col items-center justify-center  text-3xl font-bold text-center text-neutral-700 px-6 md:px-0">
       <h1 class="py-10 bg-black bg-opacity-0 text-4xl text-neutral-700 text-center">
         Nos offres AXA Prévoyance & Patrimoine
       </h1>
-      <hr class="border-0 h-[2.5px] w-full max-w-[80px] bg-[#C9B085]">
+      <hr class="border-0 h-[2.5px]  max-w-[80px] bg-[#C9B085]">
     </header>
 
     <!-- Main Content -->
-    <main class="flex flex-col w-full max-w-[1243px] mx-auto mt-8 mb-10 px-6 md:px-0 flex-grow">
-      <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    <main class="flex flex-col  max-w-[1243px] mx-auto mt-8 mb-10 px-6 md:px-0 flex-grow">
+      <div class="grid gap-5 grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4">
         <!-- Offering Cards -->
         <OfferingCard
           v-for="(offering, index) in offerings"

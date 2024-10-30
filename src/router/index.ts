@@ -1,6 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../components/Home.vue';
 import Prevoyance from '../components/prevoyance.vue';
+import Mutuelle from '../components/Mutuelle.vue';
+import Retraite from '../components/Retraite.vue';
+import Contact from '../components/contact.vue';
+import Enprunteur from '../components/emprunteur.vue';
 
 console.log("Router is being set up...");
 
@@ -19,6 +23,38 @@ const routes = [
     component: Prevoyance,
     beforeEnter: () => {
       console.log("Navigating to Prevoyance");
+    }
+  },
+  {
+    path: '/mutuelle',
+    name: 'mutuelle',
+    component: Mutuelle,
+    beforeEnter: () => {
+      console.log("Navigating to mutuelle");
+    }
+  },
+  {
+    path: '/per-retraite',
+    name: 'retraite',
+    component: Retraite,
+    beforeEnter: () => {
+      console.log("Navigating to mutuelle");
+    }
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: Contact,
+    beforeEnter: () => {
+      console.log("Navigating to mutuelle");
+    }
+  },
+  {
+    path: '/assurance-emprunteur',
+    name: 'enprunteur',
+    component: Enprunteur,
+    beforeEnter: () => {
+      console.log("Navigating to mutuelle");
     }
   }
 ];

@@ -29,19 +29,22 @@
     </div>
     <h1 class="title-keys">Assurance Prévoyance : qui est concerné ?
     </h1>
-
   </section>
+  <Acomp/>
 </template>
+
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
 import '../assets/prevoyance.css';
 import PointsCle from './points-cle.vue';
+import Acomp from './Accompagnement.vue';
 
 export default defineComponent({
   name: 'Prevoyance',
   components: {
-    PointsCle
+    PointsCle,
+    Acomp
   },
   setup() {
   },

@@ -128,16 +128,20 @@
         </div>
     </div>
 </div>
-
+<Acomp/>
 </template>
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
 import '../assets/Retraite.css';
+import Acomp from './Accompagnement.vue'
 
 export default defineComponent({
   name: 'Prevoyance',
   setup() {
-  }
+  },
+  components: {
+    Acomp
+  },
 });
 </script>

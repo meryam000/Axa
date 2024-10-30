@@ -233,12 +233,14 @@
         </div>
     </div>
 </div>
+<Acomp/>
 
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 import '../assets/Mutuelle.css';
+import Acomp from './Accompagnement.vue'
 
 export default defineComponent({
   name: 'MutuelleAxa',
@@ -250,6 +252,8 @@ export default defineComponent({
 },
   
 },
-
+components: {
+    Acomp
+  },
 });
 </script>

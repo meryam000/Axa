@@ -137,18 +137,20 @@
 </div>
 
 <PointsCle/>
-
+<Acomp/>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 import PointsCle from './points-cle.vue';
 import '../assets/emprunteur.css';
+import Acomp from './Accompagnement.vue';
 
 export default defineComponent({
   name: 'Enprunteur',
   components: {
-    PointsCle
+    PointsCle,
+    Acomp
   },
   setup() {
   }

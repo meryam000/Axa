@@ -1,0 +1,208 @@
+<template>
+    <section class="accompaniment-section">
+      <img src="../assets/images/laptop-blur.jpg" class="background-image" />
+      <div class="content-wrapper">
+        <div class="content-container">
+          <aside class="image-column">
+            <figure class="image-wrapper">
+              <img src="../assets/images/ext.jpg" class="group-image" />
+            </figure>
+          </aside>
+          <main class="text-column">
+            <div class="text-content">
+              <h2 class="section-title">Notre accompagnement</h2>
+              <hr>
+              <p>Nous vous accompagnons de la mise en place du contrat PER jusqu'à la sortie en capital et/rente à la retraite.</p>
+              <ul class="feature-list">
+                <li class="feature-item">Simulation retraite</li>
+                <li class="feature-item">Calcul du plafond fiscal (Madelin/Fillon)</li>
+                <li class="feature-item">Optimisation fiscale</li>
+              </ul>
+              <button class="cta-button">DEMANDER UN DEVIS</button>
+            </div>
+          </main>
+        </div>
+      </div>
+      <div class="footer-line"></div>
+    </section>
+  </template>
+  
+  <script lang="ts">
+  import { defineComponent } from 'vue';
+  
+  export default defineComponent({
+    name: 'Acomp',
+  });
+  </script>
+  
+  <style scoped>
+  .accompaniment-section {
+    position: relative;
+    width: 100%;
+    padding-top: 112px;
+    height: 30%;
+    padding-bottom: 0px;
+  }
+  
+  p{
+    padding-top: 30px;
+    color:white;
+    text-align: center;
+  }
+  
+  .background-image {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: blur(1px);
+  }
+  
+  .content-wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 980px;
+  }
+  
+  .content-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .image-column {
+    width: 37%;
+  }
+  
+  .image-wrapper {
+    background-color: transparent;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 5px 6px;
+  }
+  
+  .group-image {
+    aspect-ratio: 0.75;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 7px;
+  }
+  
+  .text-column {
+    width: 63%;
+  }
+  
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+  }
+  
+  .section-title {
+    color: white;
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .decorative-image {
+    aspect-ratio: 21.28;
+    object-fit: contain;
+    object-position: center;
+    width: 236px;
+    align-self: center;
+    margin: 17px 0 0 12px;
+  }
+  
+  .feature-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 28px;
+    margin-top: 34px;
+    font-size: 19px;
+  }
+  
+  .feature-item {
+    color: #e9f1f2;
+    text-align: center;
+    margin-bottom: 27px;
+  }
+
+  
+  .cta-button {
+    background-color: #9b2515;
+    align-self: center;
+    width: 301px;
+    max-width: 100%;
+    font-size: 16px;
+    color: #f2e4e2;
+    font-weight: 600;
+    padding: 26px 45px;
+    border: none;
+    cursor: pointer;
+    margin: 18px 0 0 13px;
+  }
+  
+  .footer-line {
+    background-color: #4f445e;
+    height: 3px;
+    margin-top: 152px;
+  }
+  
+  @media (max-width: 991px) {
+    .accompaniment-section {
+      max-width: 100%;
+      padding-top: 100px;
+    }
+  
+    .content-container {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  
+    .image-column,
+    .text-column {
+      width: 100%;
+    }
+  
+    .image-wrapper {
+      margin-top: 40px;
+    }
+  
+    .text-content {
+      margin-top: 40px;
+    }
+  
+    .section-title {
+      max-width: 100%;
+      margin-right: 10px;
+      font-size: 40px;
+    }
+  
+    .feature-list {
+      max-width: 100%;
+      padding-left: 20px;
+    }
+  
+    .feature-item:last-child {
+      max-width: 100%;
+      margin-right: 10px;
+    }
+  
+    .cta-button {
+      padding: 26px 20px;
+    }
+  
+    .footer-line {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  </style>

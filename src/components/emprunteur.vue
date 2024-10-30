@@ -130,7 +130,7 @@
 <div class="et_pb_row et_pb_row_9 snipcss-3jUGy">
     <div class="et_pb_column et_pb_column_1_2 et_pb_column_12  et_pb_css_mix_blend_mode_passthrough">
         <div class="et_pb_module et_pb_image et_pb_image_0">
-            <span class="et_pb_image_wrap "><img src="../assets/images/paris.webp" data-src="" width="489" height="262" alt="" title="11704291023_.pic_" class="wps-ic-cdn wp-image-530 wpc-excluded-adaptive wpc-lazy-skipped" wpc-data="excluded-adaptive"></span>
+            <span class="et_pb_image_wrap "><img src="../assets/images/per.jpeg" data-src="" width="489" height="262" alt="" title="11704291023_.pic_" class="wps-ic-cdn wp-image-530 wpc-excluded-adaptive wpc-lazy-skipped" wpc-data="excluded-adaptive"></span>
         </div>
     </div>
     <div class="et_pb_column et_pb_column_1_2 et_pb_column_13  et_pb_css_mix_blend_mode_passthrough et-last-child">

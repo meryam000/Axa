@@ -76,6 +76,16 @@
       Le CAP a reçu l’Oscar du meilleur contrat de Prévoyance Madelin par Gestion de Fortune, le Label d'excellence dans la catégorie Prévoyance Madelin des Dossiers de l'Épargne et le Label Sélection Premium « Prévoyance Madelin » du site Good Value for Money.    </p>
   </div>
 </div>
+<div class="prevoyance-content">
+  <div class="text-image-container">
+    <div class="image-button-container">
+      <img src="../assets/images/agipi.jpg" alt="Prevoyance Image" class="description-image">
+    </div>
+    <h1 class="tit">Un partenaire exclusif, l’association AGIPI
+    </h1>
+
+  </div>
+</div>
   </section>
   <Stats/>
   <Acomp/>

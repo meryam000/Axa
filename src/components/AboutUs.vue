@@ -3,7 +3,7 @@
     <div class="about-us-container">
       <div class="about-us-content">
         <div class="image-column">
-          <img src="../assets/images/gildas.webp" alt="Gildas LAFFAILLE" class="profile-image" />
+          <img src="../assets/images/inter.jpg" alt="Gildas LAFFAILLE" class="profile-image" />
         </div>
         <div class="text-column">
           <div class="text-content">

@@ -1,5 +1,5 @@
 <template>
-<div class="et_pb_section et_pb_section_0 et_pb_with_background et_section_regular snipcss-DxPWp">
+<div class="et_pb_section et_pb_section_11 et_pb_with_background et_section_regular snipcss-DxPWp">
     <div class="et_pb_row et_pb_row_0">
         <div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
             <div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_center et_pb_bg_layout_light">

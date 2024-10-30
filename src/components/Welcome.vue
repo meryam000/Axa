@@ -39,6 +39,14 @@
         <a href="/retraite" class="font-bold text-[#C9B085] hover:text-[#36369F]">Retraite</a>, la garantie <a href="/assurance_emprunteur" class="font-bold text-[#C9B085] hover:text-[#36369F]">Assurance emprunteur</a>... jusqu'à 
         l'épargne et la transmission, succession, en fonction de votre situation.
         
+        <span class="block mb-2"></span>
+        
+        Avec une spécialisation en protection financière et gestion de patrimoine pour les Particuliers et les 
+        Professionnels, votre cabinet Gildas LAFFAILLE peut vous aider à préparer votre avenir et atteindre vos objectifs financiers.
+        
+        <span class="block mb-2"></span>
+        
+        Nous sommes disponibles pour répondre à toutes vos questions, n'hésitez pas à<a href="" class="font-bold text-[blue]"> nous contacter.</a>
       </p>
       </div>
       <br>

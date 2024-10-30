@@ -29,7 +29,55 @@
     </div>
     <h1 class="title-keys">Assurance Prévoyance : qui est concerné ?
     </h1>
+    <h2 class="tit">Indépendants, Professions libérales , TNS et même les salariés </h2>
+    <div class="prevoyance-content">
+  <div class="text-image-container">
+    <div class="image-button-container">
+      <img src="../assets/images/prev-pics.png" alt="Prevoyance Image" class="description-image">
+      <button class="cta-button" tabindex="0">DEMANDER UN DEVIS</button>
+    </div>
+    <p class="description-text">
+      Les indépendants, TNS et professions libérales sont les premiers concernés car la couverture de leur régime obligatoire est bien plus faible que celles des salariés. C'est pourquoi il est nécessaire de compléter les garanties de base par une bonne prévoyance individuelle.
+    </p>
+  </div>
+</div>
+<h1 class="title-keys">La prévoyance AXA AGIPI offre des garanties complémentaires uniques sur le marché</h1>
+    <div class="columns-container">
+      <div class="column">
+        <ul class="list-items">
+          <li>Un barème par profession</li>
+          <li>Forfait Maternité</li>
+          <li>Psychologique et dos</li>
+        </ul>
+      </div>
+      <div class="column">
+        <ul class="list-items">
+          <li>Prestations forfaitaires pour les IJ</li>
+          <li>Remboursement des frais professionnels</li>
+          <li>Exonération des cotisations</li>
+        </ul>
+      </div>
+      <div class="column">
+        <ul class="list-items">
+          <li>Rente éducation</li>
+          <li>Capital maladie grave</li>
+          <li>Délai de rechute</li>
+        </ul>
+      </div>
+    </div>
+    <h1 class="title-keys">Votre contrat Prévoyance multi-récompensé</h1>
+    <div class="prevoyance-content">
+  <div class="text-image-container">
+    <div class="image-button-container">
+      <img src="../assets/images/prev-badge.png" alt="Prevoyance Image" class="description-image">
+    </div>
+    <p class="description-text">
+      <strong>En optant pour le CAP, vous accédez à un contrat distingué par la profession et récompensé à plusieurs reprises pour la qualité de ses prestations.</strong>
+      Le CAP a reçu l’Oscar du meilleur contrat de Prévoyance Madelin par Gestion de Fortune, le Label d'excellence dans la catégorie Prévoyance Madelin des Dossiers de l'Épargne et le Label Sélection Premium « Prévoyance Madelin » du site Good Value for Money.    </p>
+  </div>
+</div>
   </section>
+  <Stats/>
   <Acomp/>
 </template>
 
@@ -39,12 +87,14 @@ import { defineComponent, ref } from 'vue';
 import '../assets/prevoyance.css';
 import PointsCle from './points-cle.vue';
 import Acomp from './Accompagnement.vue';
+import Stats from './Stats.vue';
 
 export default defineComponent({
   name: 'Prevoyance',
   components: {
     PointsCle,
-    Acomp
+    Acomp,
+    Stats,
   },
   setup() {
   },

@@ -34,7 +34,11 @@
       </h1>
       <p id="parag" class="text-black ml-14 mr-14 pb-10 text-left text-[20px] text-xl font-sans">
         Le cabinet <b class="font-bold">AXA Prévoyance & Patrimoine</b> de <b class="font-bold">Gildas LAFFAILLE</b> à Hauts-de-Seine
-        (92) vous accompagne dans tous vos projets de vie en vous proposant des solutions sur mesure...
+        (92) vous accompagne dans tous vos projets de vie en vous proposant des solutions sur mesure, depuis la 
+        <a href="/prevoyance" class="font-bold text-[#C9B085] hover:text-[#36369F]">Prévoyance</a>, la <a href="/mutuelle" class="font-bold text-[#C9B085] hover:text-[#36369F]">Mutuelle</a>, la 
+        <a href="/retraite" class="font-bold text-[#C9B085] hover:text-[#36369F]">Retraite</a>, la garantie <a href="/assurance_emprunteur" class="font-bold text-[#C9B085] hover:text-[#36369F]">Assurance emprunteur</a>... jusqu'à 
+        l'épargne et la transmission, succession, en fonction de votre situation.
+        
       </p>
     </div>
   </section>

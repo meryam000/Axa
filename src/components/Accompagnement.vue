@@ -1,41 +1,69 @@
 <template>
-    <section class="accompaniment-section">
-      <img src="../assets/images/laptop-blur.jpg" class="background-image" />
-      <div class="content-wrapper">
-        <div class="content-container">
-          <aside class="image-column">
-            <figure class="image-wrapper">
-              <img src="../assets/images/ext.jpg" class="group-image" />
-            </figure>
-          </aside>
-          <main class="text-column">
-            <div class="text-content">
-              <h2 class="section-title">Notre accompagnement</h2>
-              <hr>
-              <p>Nous vous accompagnons de la mise en place du contrat PER jusqu'à la sortie en capital et/rente à la retraite.</p>
-              <ul class="feature-list">
-                <li class="feature-item">Simulation retraite</li>
-                <li class="feature-item">Calcul du plafond fiscal (Madelin/Fillon)</li>
-                <li class="feature-item">Optimisation fiscale</li>
-              </ul>
-              <router-link to="/contact">
-                <button class="cta-button">DEMANDER UN DEVIS</button>
-              </router-link>
-            </div>
-          </main>
-        </div>
+  <section class="accompaniment-section">
+    <img src="../assets/images/laptop-blur.jpg" class="background-image" />
+    <div class="content-wrapper">
+      <div class="content-container">
+        <aside class="image-column">
+          <figure class="image-wrapper">
+            <img src="../assets/images/ext.jpg" class="group-image" />
+          </figure>
+        </aside>
+        <main class="text-column">
+          <div class="text-content">
+            <h2 class="section-title">Notre accompagnement</h2>
+            <hr />
+            <p v-html="dynamicText"></p>
+            <router-link to="/contact" class="cta-button">DEMANDER UN DEVIS</router-link>
+          </div>
+        </main>
       </div>
-      <div class="footer-line"></div>
-    </section>
-  </template>
+    </div>
+    <div class="footer-line"></div>
+  </section>
+</template>
+
   
-  <script lang="ts">
-  import { defineComponent } from 'vue';
-  
-  export default defineComponent({
-    name: 'Acomp',
-  });
-  </script>
+<script lang="ts">
+import { defineComponent, computed } from 'vue';
+import { useRoute } from 'vue-router';
+
+export default defineComponent({
+  name: 'Acomp',
+  setup() {
+    const route = useRoute();
+
+    const dynamicText = computed(() => {
+      switch (route.name) {
+        case 'mutuelle':
+          return `
+            › Un accompagnement pour le choix des garanties et des formules les plus adaptées à vos besoins.<br><br>
+            › Une souscription simple et rapide par signature électronique avec prise en charge des démarches de résiliation auprès de votre ancienne mutuelle.<br><br>
+            › Un interlocuteur unique et réactif pour le suivi du contrat et la possibilité de modifier chaque année vos garanties.<br><br>
+            › Un accès gratuit à différents services (téléconsultation, réseau ITELIS, Hospiway ...).
+          `;
+        case 'Prevoyance':
+          return "Nous vous accompagnons dans la mise en place de solutions de prévoyance pour sécuriser votre avenir.";
+        case 'enprunteur':
+        return `
+            Nous vous accompagnons de la demande de changement du contrat d’assurance emprunteur jusqu’à la mise en place de la nouvelle assurance.<br><br>
+            › Simulation rapide<br>
+            › Conseil d’un expert Assurance emprunteur<br>
+            › Jusqu’à 50% d’économies possibles
+          `;
+        case 'retraite':
+          return "Nous vous accompagnons de la mise en place du contrat PER jusqu'à la sortie en capital et/ou rente à la retraite.<br><br>› Simulation retraite<br>› Calcul du plafond fiscal (Madelin/Fillon)<br>› Optimisation fiscale";
+        default:
+          return "Nous vous accompagnons de manière personnalisée en fonction de vos besoins.";
+      }
+    });
+
+    return {
+      dynamicText
+    };
+  },
+});
+</script>
+
   
   <style scoped>
   .accompaniment-section {

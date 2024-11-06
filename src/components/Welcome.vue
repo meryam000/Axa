@@ -43,8 +43,8 @@
           
           <span class="block mb-2"></span>
           
-          Avec une spécialisation en protection financière et gestion de patrimoine pour les Particuliers et les 
-          Professionnels, votre cabinet Gildas LAFFAILLE peut vous aider à préparer votre avenir et atteindre vos objectifs financiers.
+          Avec une spécialisation en protection sociale et gestion de patrimoine pour les Particuliers et les 
+          Professionnels, Le cabinet Gildas LAFFAILLE vous conseille pour préparer votre avenir et définir vos objectifs financiers.
           
           <span class="block mb-2"></span>
           

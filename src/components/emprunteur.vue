@@ -20,7 +20,7 @@
             <div class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_center et_pb_bg_layout_dark">
                 <div class="et_pb_text_inner">
                     <h3>L'assurance emprunteur est un élément crucial de votre prêt immobilier, 
-                        pouvant représenter jusqu'à <span id="style-HEwIa" class="style-HEwIa">40%</span> du coût total de votre crédit immobilier. </h3>
+                        pouvant représenter <span id="style-HEwIa" class="style-HEwIa"> jusqu'à 40% du coût total</span>  de votre crédit immobilier. </h3>
                     <h3>Il est désormais possible de changer d'assurance de prêt immobilier à tout moment, 
                         offrant ainsi l'opportunité de faire de substantielles économies. </h3>
                     <h3>Que vous soyez en phase d'achat immobilier ou que vous ayez déjà souscrit un prêt immobilier, 

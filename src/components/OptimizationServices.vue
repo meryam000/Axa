@@ -6,7 +6,7 @@
       </h1>
       <hr class="border-0 h-[2.5px] w-full max-w-[80px] bg-[#C9B085] mx-auto mt-4">
       <p class="mt-4 text-neutral-600 text-xl px-6">
-        Le cabinet <b class="font-bold">AXA Prévoyance & Patrimoine</b> de <b class="font-bold">Gildas LAFFAILLE</b> vous aide à réaliser vos projets en Prévoyance, 
+        Le cabinet <b class="font-bold">AXA Prévoyance & Patrimoine</b> de <b class="font-bold">Gildas LAFFAILLE</b>  vous accompagne sur les sujets de Prévoyance, 
         Mutuelle, Retraite, Garantie Assurance emprunteur…et plus encore
       </p>
     </header>

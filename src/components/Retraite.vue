@@ -24,8 +24,10 @@
                       <span id="style-FZLon" class="style-FZLon"><strong>(Plan d’Epargne Retraite)</strong></span>, vous pouvez réaliser des économies d’impôts et vous constituer un complément de revenus pour bien vivre votre retraite. </h3>
                 </div>
             </div>
-            <div class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_center et_pb_module ">
-                <a class="et_pb_button et_pb_button_0 et_pb_bg_layout_light" href="">Demander un devis</a>
+            <div class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_center et_pb_module">
+              <router-link to="/contact">
+                <a class="et_pb_button et_pb_button_0 et_pb_bg_layout_light">Demander un devis</a>
+              </router-link>
             </div>
         </div>
     </div>
@@ -107,23 +109,21 @@
 
 <div class="et_pb_row et_pb_row_9 snipcss-3jUGy">
     <div class="et_pb_column et_pb_column_1_2 et_pb_column_12  et_pb_css_mix_blend_mode_passthrough">
-        <div class="et_pb_module et_pb_image et_pb_image_0">
-            <span class="et_pb_image_wrap "><img src="../assets/images/per.jpeg" data-src="" width="489" height="262" alt="" title="11704291023_.pic_" class="wps-ic-cdn wp-image-530 wpc-excluded-adaptive wpc-lazy-skipped" wpc-data="excluded-adaptive"></span>
-        </div>
+      <img src="../assets/images/per.jpeg" data-src="" width="489" height="262" alt="" title="11704291023_.pic_" class="wps-ic-cdn wp-image-530 wpc-excluded-adaptive wpc-lazy-skipped" wpc-data="excluded-adaptive">
     </div>
     <div class="et_pb_column et_pb_column_1_2 et_pb_column_13  et_pb_css_mix_blend_mode_passthrough et-last-child">
         <div class="et_pb_module et_pb_text et_pb_text_14  et_pb_text_align_left et_pb_bg_layout_light">
             <div class="et_pb_text_inner">
-              <p><strong>Les bonnes raisons de choisir un PER :</strong></p>
+              <h3><strong>Les bonnes raisons de choisir un PER :</strong></h3>
 
-              <p>La déductibilité fiscale en phase d’épargne</p>
-              <p>La liberté de la sortie (capital et/rentes) à la retraite</p>
-              <p>Des cas de rachats exceptionnels</p>
-              <p>Votre épargne retraite réunie (PERP, Madelin ou PERCO)</p>
-              <p>Une gestion adaptée à votre profil</p>
-              <p>Fonds Eurocroissance</p>
-              <p>Outil de succession</p>
-              <p>Un partenaire financier solide</p>
+              <h5><i class="fa fa-check fa-lg"></i>La déductibilité fiscale en phase d’épargne</h5>
+              <h5><i class="fa fa-check fa-lg"></i>La liberté de la sortie (capital et/rentes) à la retraite</h5>
+              <h5><i class="fa fa-check fa-lg"></i>Des cas de rachats exceptionnels</h5>
+              <h5><i class="fa fa-check fa-lg"></i>Votre épargne retraite réunie (PERP, Madelin ou PERCO)</h5>
+              <h5><i class="fa fa-check fa-lg"></i>Une gestion adaptée à votre profil</h5>
+              <h5><i class="fa fa-check fa-lg"></i>Fonds Eurocroissance</h5>
+              <h5><i class="fa fa-check fa-lg"></i>Outil de succession</h5>
+              <h5><i class="fa fa-check fa-lg"></i>Un partenaire financier solide</h5>
             </div>
         </div>
     </div>

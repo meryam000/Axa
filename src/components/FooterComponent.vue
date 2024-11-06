@@ -7,18 +7,20 @@
             <section class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
               <div class="flex flex-col grow font-semibold max-md:mt-10">
                 <div class="flex flex-col items-start pl-1.5">
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/683529e4b7574224fb5466d53d9bda7e9c74c082b9c4b2055d9839fd260c3eaa?placeholderIfAbsent=true&apiKey=d1f111f51c1d47fba0386534ec896743" alt="" class="object-contain rounded-xl aspect-[0.98] w-[62px]" />
+                  <img loading="lazy" src="../assets/images/axa_white.png" alt="" class="object-contain rounded-xl aspect-[0.98] w-[62px]" />
                   <h1 class="company-name mt-6">Cabinet Gildas Laffaille</h1>
                       <p class="company-subtitle mb-0">AXA Prévoyance & Patrimoine</p>
                   <p class="self-stretch mt-10 text-base text-slate-300 text-left">
                     Pour vous et vos proches, votre<br />conseiller AxA vous accompagne au<br />quotidien, par telephone, dans la<br />gestion de votre contrat et pour<br />répondre à toutes vos questions.
                   </p>
                 </div>
-                <a href="#" class="flex flex-col px-1 mt-10 max-w-full text-sm text-center bg-white rounded-3xl border border-indigo-800 border-solid text-stone-400 w-[232px] max-md:mt-10 h-12">
-                  <span class="z-10 px-10 py-6 -mt-5 bg-black bg-opacity-0 max-md:px-5">
-                    DEMANDER UN DEVIS
-                  </span>
-                </a>
+                <router-link to="/contact">
+                  <a class="flex flex-col px-1 mt-10 max-w-full text-sm text-center bg-white rounded-3xl border border-indigo-800 border-solid text-stone-400 w-[232px] max-md:mt-10 h-12">
+                    <span class="z-10 px-10 py-6 -mt-5 bg-black bg-opacity-0 max-md:px-5">
+                      DEMANDER UN DEVIS
+                    </span>
+                  </a>
+                </router-link>
               </div>
             </section>
             <nav class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
@@ -61,8 +63,8 @@
                   <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1c73d64f77a69bbb5fbf50f4a11166cb3f1878426b5f3021e5c01f7fa066b4ce?placeholderIfAbsent=true&apiKey=d1f111f51c1d47fba0386534ec896743" alt="" class="object-contain shrink-0 aspect-[1.35] w-[31px]" />
                   <h4 class="self-start">EMAIL</h4>
                 </div>
-                <a href="mailto:agencea2p.gildas.lafaille@axa.fr" class="mt-8 text-sm text-slate-300 text-left">
-                  agencea2p.gildas.lafaille@axa.fr
+                <a href="mailto:agencea2p.gildas.laffaille@axa.fr" class="mt-8 text-sm text-slate-300 text-left">
+                  agencea2p.gildas.laffaille@axa.fr
                 </a>
               </div>
             </section>

@@ -22,7 +22,7 @@
 .ContactUs_contact_us__mCufa { 
     display: flex; 
     flex-direction: column; 
-    padding-top: 20rem; 
+    padding-top: 14rem; 
     padding-bottom: 6rem; 
     gap: 2rem;
 } 
@@ -762,3 +762,12 @@
 #style-WMLsm.style-WMLsm {  
    display: none;  
 }  
+
+.status-message {
+    margin-top: 1em;
+    padding: 0.5em;
+    color: white;
+    background-color: green; /* Change to red if displaying error messages */
+    border-radius: 5px;
+}
+  

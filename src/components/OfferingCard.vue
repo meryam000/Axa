@@ -16,7 +16,6 @@
           <img :src="iconSrc" alt="Icon" />
         </div>
       </div>
-
       <!-- Dynamic Title (Centered, Single Line) -->
       <h2 class="mt-8 text-lg text-[#8A7333] text-center h-[35px] whitespace-nowrap overflow-hidden text-ellipsis">
         {{ title }}
@@ -26,9 +25,11 @@
         {{ description }}
       </p>
       <!-- Dynamic Button -->
-      <a href="#" class="self-center mt-auto text-lg font-medium text-center text-neutral-700">
-        En savoir plus
-      </a>
+      <router-link :to="url">
+        <a class="self-center mt-auto text-lg font-medium text-center text-neutral-700">
+          En savoir plus
+        </a>
+      </router-link>
     </div>
   </article>
 </template>
@@ -53,6 +54,10 @@ export default defineComponent({
       required: false, // Make imageSrc optional
     },
     iconSrc: {
+      type: String,
+      required: true,
+    },
+    url: {
       type: String,
       required: true,
     },

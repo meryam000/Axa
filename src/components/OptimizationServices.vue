@@ -20,19 +20,23 @@
           <ul class="service-items">
             <li class="service-item">
               <img loading="lazy" src="../assets/icons/check.svg" class="service-icon" alt="Service icon" />
-              <p>Optimisation de la transmission et des droits de succession</p>
-            </li>
-            <li class="service-item">
-              <img loading="lazy" src="../assets/icons/check.svg" class="service-icon" alt="Service icon" />
               <p>Bilan social et patrimonial</p>
             </li>
             <li class="service-item">
               <img loading="lazy" src="../assets/icons/check.svg" class="service-icon" alt="Service icon" />
-              <p>Santé, retraite, prévoyance, assurance vie, contrat de capitalisation</p>
+              <p>Prevoyance santé assurance emprunteur</p>
             </li>
             <li class="service-item">
               <img loading="lazy" src="../assets/icons/check.svg" class="service-icon" alt="Service icon" />
-              <p>Plan d'Épargne Retraite</p>
+              <p>Retraite assurance vie</p>
+            </li>
+            <li class="service-item">
+              <img loading="lazy" src="../assets/icons/check.svg" class="service-icon" alt="Service icon" />
+              <p>Optimisation revenu dirigeant entreprise</p>
+            </li>
+            <li class="service-item">
+              <img loading="lazy" src="../assets/icons/check.svg" class="service-icon" alt="Service icon" />
+              <p>Optimisation de la transmission</p>
             </li>
             <li class="service-item">
               <img loading="lazy" src="../assets/icons/check.svg" class="service-icon" alt="Service icon" />

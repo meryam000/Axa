@@ -72,7 +72,7 @@
 }
 
 .sidebar-link:hover {
-  color: #C9B085;
+  color: #ff0000;
 }
 
 /* Background overlay for mobile when the sidebar is open */
@@ -146,7 +146,7 @@
 }
 
 .nav-link:hover {
-  color: #C9B085;
+  color: #ff0000;
 }
 
 @media (min-width: 769px) {
@@ -172,5 +172,5 @@
 
 .nav-link.active,
 .sidebar-link.active {
-  color: #C9B085;
+  color: #ff0000;
 }

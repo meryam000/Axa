@@ -18,6 +18,7 @@
           :image-src="offering.imageSrc"
           :title="offering.title"
           :description="offering.description"
+          :url="offering.url"
           :icon-src="offering.iconSrc"
         />
       </div>
@@ -52,24 +53,28 @@ export default defineComponent({
           imageSrc: mutuelleImage,
           iconSrc: mutuelleIcon, // Icon for the MUTUELLE card
           title: 'MUTUELLE',
+          url: '/mutuelle',
           description: 'Des garanties qui s\'adaptent à vos besoins et des services qui font clairement la différence au quotidien.',
         },
         {
           imageSrc: prevoyanceImage,
           iconSrc: prevoyanceIcon,
           title: 'PRÉVOYANCE',
+          url: '/prevoyance',
           description: 'Faire face aux imprévus de la vie en vous assurant des revenus complémentaires (Arrêt de travail, Invalidité, Décès).',
         },
         {
           imageSrc: assuranceImage,
           iconSrc: assuranceIcon,
           title: 'ASSURANCE EMPRUNTEUR',
+          url: '/assurance-emprunteur',
           description: 'Economiser jusqu\'à 40% en changeant l\'assurance de votre crédit immobilier.',
         },
         {
           imageSrc: perImage,
           iconSrc: perIcon,
           title: 'PER RETRAITE',
+          url: '/per-retraite',
           description: 'Préparer sa retraite avec un revenu complémentaire tout en réduisant vos impôts.',
         },
       ],

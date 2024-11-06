@@ -31,8 +31,10 @@
                     <h3><span id="style-HEwIa" class="style-HEwIa"><strong>Gratuité</strong> </span>à partir de 3 enfants et +.</h3>
                 </div>
             </div>
-            <div class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_center et_pb_module ">
-                <a class="et_pb_button et_pb_button_0 et_pb_bg_layout_light">Demander un devis</a>
+            <div class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_center et_pb_module">
+                <router-link to="/contact">
+                    <a class="et_pb_button et_pb_button_0 et_pb_bg_layout_light">Demander un devis</a>
+                </router-link>
             </div>
         </div>
     </div>
@@ -111,8 +113,10 @@
     </div>
     <div class="et_pb_row et_pb_row_4">
         <div class="et_pb_column et_pb_column_4_4 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough et-last-child">
-            <div class="et_pb_button_module_wrapper et_pb_button_1_wrapper et_pb_button_alignment_center et_pb_module ">
-                <a class="et_pb_button et_pb_button_1 et_pb_bg_layout_light">Demander un devis</a>
+            <div class="et_pb_button_module_wrapper et_pb_button_1_wrapper et_pb_button_alignment_center et_pb_module">
+                <router-link to="/contact">
+                    <a class="et_pb_button et_pb_button_1 et_pb_bg_layout_light">Demander un devis</a>
+                </router-link>
             </div>
         </div>
     </div>
@@ -227,8 +231,10 @@
     </div>
     <div class="et_pb_row et_pb_row_8">
         <div class="et_pb_column et_pb_column_4_4 et_pb_column_14  et_pb_css_mix_blend_mode_passthrough et-last-child">
-            <div class="et_pb_button_module_wrapper et_pb_button_2_wrapper et_pb_button_alignment_center et_pb_module ">
-                <a class="et_pb_button et_pb_button_2 et_pb_bg_layout_light">Demander un devis</a>
+            <div class="et_pb_button_module_wrapper et_pb_button_2_wrapper et_pb_button_alignment_center et_pb_module">
+                <router-link to="/contact">
+                    <a class="et_pb_button et_pb_button_2 et_pb_bg_layout_light">Demander un devis</a>
+                </router-link>
             </div>
         </div>
     </div>

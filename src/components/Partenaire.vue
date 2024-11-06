@@ -24,12 +24,12 @@
 
     <!-- Desktop logos -->
     <div class="partners-logos-desktop">
-      <img src="../assets/images/APRS 1.png" alt="APRS" />
+      <img src="../assets/images/axa_prive.jpg" alt="AXA Prive" />
       <img src="../assets/images/logo_agipi_svg.svg" alt="AGIPI" />
+      <img src="../assets/images/APRS 1.png" alt="APRS" />
       <img src="../assets/images/axa_banque.png" alt="AXA Banque" />
       <img src="../assets/images/itelis.png" alt="Itelis" />
       <img src="../assets/images/anpere.png" alt="Anpere" />
-      <img src="../assets/images/axa_prive.jpg" alt="AXA Prive" />
     </div>
   </section>
 </template>
@@ -41,12 +41,12 @@ export default defineComponent({
   name: 'Partenaire',
   setup() {
     const logos = [
-      '/src/assets/images/APRS 1.png',
+      '/src/assets/images/axa_prive.jpg',
       '/src/assets/images/logo_agipi_svg.svg',
+      '/src/assets/images/APRS 1.png',
       '/src/assets/images/axa_banque.png',
       '/src/assets/images/itelis.png',
       '/src/assets/images/anpere.png',
-      '/src/assets/images/axa_prive.jpg',
     ];
     
     const currentIndex = ref(0);

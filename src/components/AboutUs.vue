@@ -29,7 +29,9 @@
               <p class="description">
                 Alors, prêt(e) à préparer votre avenir en toute sérénité ? Contactez-moi et ensemble, atteignons vos objectifs financiers !
               </p>
-              <button class="contact-button" @click="handleContact">CONTACTEZ-NOUS</button>
+              <router-link to="/contact">
+                <button class="contact-button">CONTACTEZ-NOUS</button>
+              </router-link>
             </div>
           </div>
         </div>
@@ -45,10 +47,6 @@ import '../assets/aboutus.css';
 export default defineComponent({
   name: 'AboutUs',
   methods: {
-    handleContact() {
-      // Implement contact functionality
-      console.log('Contact button clicked');
-    }
   }
 });
 </script>

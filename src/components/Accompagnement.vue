@@ -18,7 +18,9 @@
                 <li class="feature-item">Calcul du plafond fiscal (Madelin/Fillon)</li>
                 <li class="feature-item">Optimisation fiscale</li>
               </ul>
-              <button class="cta-button">DEMANDER UN DEVIS</button>
+              <router-link to="/contact">
+                <button class="cta-button">DEMANDER UN DEVIS</button>
+              </router-link>
             </div>
           </main>
         </div>

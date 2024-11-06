@@ -18,9 +18,11 @@
                 obligatoire
               </p>
             </div>
-            <button class="prevoyance-cta-button" tabindex="0">
-              <span class="prevoyance-button-text">DEMANDER UN DEVIS</span>
-            </button>
+            <router-link to="/contact">
+              <button class="prevoyance-cta-button">
+                <span class="prevoyance-button-text">DEMANDER UN DEVIS</span>
+              </button>
+            </router-link>
           </div>
         </article>
       </div>
@@ -34,7 +36,9 @@
   <div class="text-image-container">
     <div class="image-button-container">
       <img src="../assets/images/prev-pics.png" alt="Prevoyance Image" class="description-image">
-      <button class="cta-button" tabindex="0">DEMANDER UN DEVIS</button>
+      <router-link to="/contact">
+        <button class="cta-button" tabindex="0">DEMANDER UN DEVIS</button>
+      </router-link>
     </div>
     <p class="description-text">
       Les indépendants, TNS et professions libérales sont les premiers concernés car la couverture de leur régime obligatoire est bien plus faible que celles des salariés. C'est pourquoi il est nécessaire de compléter les garanties de base par une bonne prévoyance individuelle.

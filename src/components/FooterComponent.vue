@@ -10,7 +10,7 @@
                   <img loading="lazy" src="../assets/images/axa_white.png" alt="" class="object-contain rounded-xl aspect-[0.98] w-[62px]" />
                   <h1 class="company-name mt-6">Cabinet Gildas Laffaille</h1>
                       <p class="company-subtitle mb-0">AXA Prévoyance & Patrimoine</p>
-                  <p class="self-stretch mt-10 text-base text-slate-300 text-left">
+                  <p class="self-stretch mt-4 text-base text-slate-300 text-left">
                     Pour vous et vos proches, votre<br />conseiller AxA vous accompagne au<br />quotidien, par telephone, dans la<br />gestion de votre contrat et pour<br />répondre à toutes vos questions.
                   </p>
                 </div>
@@ -25,14 +25,16 @@
             </section>
             <nav class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
               <div class="flex flex-col items-start self-stretch my-auto font-semibold max-md:mt-10">
-                <h3 class="text-sm text-slate-200">NOS OFFRES</h3>
-                <ul class="mt-9 text-xs text-slate-400 text-left">
-                  <li>Mutuelle AXA</li>
-                  <li>Prévoyance</li>
-                  <li>Assurance Emprunteur</li>
-                  <li>PER Retraite</li>
+                <h3 class="mt-3 text-s text-white">NOS OFFRES</h3>
+                <ul class="mt-9 text-s text-white text-left">
+                  <li><router-link to="/mutuelle" class="custom-link">Mutuelle AXA</router-link></li>
+                  <li><router-link to="/prevoyance" class="custom-link">Prévoyance</router-link></li>
+                  <li><router-link to="/assurance-emprunteur" class="custom-link">Assurance Emprunteur</router-link></li>
+                  <li><router-link to="/per-retraite" class="custom-link">PER Retraite</router-link></li>
                 </ul>
-                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/5b73d5be2a4befdbb509f16a81b4c496e38574001c3f93058ed87bb0c883cfba?placeholderIfAbsent=true&apiKey=d1f111f51c1d47fba0386534ec896743" alt="" class="object-contain mt-28 w-8 aspect-square max-md:mt-10" />
+                <a href="https://www.linkedin.com/in/glaffaille/" target="_blank" rel="noopener noreferrer">
+  <img loading="lazy" src="../assets/icons/linkedin.svg" alt="LinkedIn" class="object-contain mt-10 w-8 aspect-square max-md:mt-10 filter-white" />
+</a>
                 <a href="#" class="mt-12 text-xs text-slate-500 max-md:mt-10">
                   Mentions legales
                 </a>
@@ -44,26 +46,26 @@
                 </p>
               </div>
             </nav>
-            <section class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+            <section class="flex flex-col ml-5 w-[36%] max-md:ml-0 max-md:w-full">
               <div class="flex flex-col items-start mt-3 w-full font-semibold max-md:mt-10">
-                <h3 class="text-sm text-gray-200">LIGNE DIRECT</h3>
-                <a href="tel:0682532241" class="mt-7 text-3xl text-stone-400">06 82 53 22 41</a>
-                <div class="flex gap-3.5 mt-9 text-sm text-gray-100 whitespace-nowrap max-md:mt-10 max-md:ml-0.5">
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0fa40c607533bbfb1361c1b851b61353c09d9a6d2f67c80fe57cdb09a4ca62c4?placeholderIfAbsent=true&apiKey=d1f111f51c1d47fba0386534ec896743" alt="" class="object-contain shrink-0 aspect-square w-[29px]" />
-                  <h4 class="self-start">HORAIRES</h4>
+                <h3 class="text-s text-white">LIGNE DIRECT</h3>
+                <a href="tel:0682532241" class="mt-0 text-3xl text-stone-400">06 82 53 22 41</a>
+                <div class="flex gap-3.5 mt-6 text-sm text-gray-100 whitespace-nowrap max-md:mt-10 max-md:ml-0.5">
+                  <img loading="lazy" src="../assets/icons/time.svg" alt="" class="object-contain shrink-0 aspect-[1.35] w-[31px] filter-white" />
+                  <h3 class="self-start mt-6">HORAIRES</h3>
                 </div>
-                <p class="mt-4 text-xs text-slate-400 text-left ml-4">
+                <p class="mt-4 text-xs text-white text-left ml-4">
                   Lundi : 09h00 - 13h00 et 14h00 - 19h00 (sur RDV) <br>
                   Mardi : 09h00 - 13h00 et 14h00 - 20h00 (sur RDV) <br>
                   Mercredi : 09h00 - 13h00 et 14h00 - 19h00 (sur RDV) <br>
                   Jeudi : 09h00 - 13h00 et 14h00 - 20h00 (sur RDV) <br>
                   Vendredi : 09h00 - 13h00 et 14h00 - 19h00 (sur RDV) <br>
                   Samedi : Fermé                  </p>
-                <div class="flex gap-3.5 mt-12 text-sm text-gray-200 whitespace-nowrap max-md:mt-10">
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1c73d64f77a69bbb5fbf50f4a11166cb3f1878426b5f3021e5c01f7fa066b4ce?placeholderIfAbsent=true&apiKey=d1f111f51c1d47fba0386534ec896743" alt="" class="object-contain shrink-0 aspect-[1.35] w-[31px]" />
-                  <h4 class="self-start">EMAIL</h4>
+                <div class="flex gap-3.5 mt-6 text-sm text-white whitespace-nowrap max-md:mt-10">
+                  <img loading="lazy" src="../assets/icons/mail.svg" alt="" class="object-contain shrink-0 aspect-[1.35] w-[31px] filter-white" />
+                  <h3 class="self-start mt-6">EMAIL</h3>
                 </div>
-                <a href="mailto:agencea2p.gildas.laffaille@axa.fr" class="mt-8 text-sm text-slate-300 text-left">
+                <a href="mailto:agencea2p.gildas.laffaille@axa.fr" class="mt-6 text-sm text-white text-left">
                   agencea2p.gildas.laffaille@axa.fr
                 </a>
               </div>
@@ -87,4 +89,16 @@ export default defineComponent({
 .self-start {
   color: #FFF;
 }
+.filter-white {
+  filter: brightness(0) invert(1);
+}
+.custom-link {
+  color: #FFF; /* Change to the color you prefer */
+  text-decoration: none;
+}
+
+.custom-link:hover {
+  color: #c9b085; /* Optional: a different color on hover */
+}
+
 </style>

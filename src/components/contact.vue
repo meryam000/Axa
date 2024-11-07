@@ -145,7 +145,7 @@
     methods: {
       async sendEmail() {
         try {
-          const response = await fetch("http://localhost:5000/send-email", {
+          const response = await fetch("https://prevoyance-mutuelle-retraite-92.com/php/index.php", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(this.form),

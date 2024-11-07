@@ -97,7 +97,7 @@
 
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
+import { defineComponent } from 'vue';
 import '../assets/prevoyance.css';
 import PointsCle from './points-cle.vue';
 import Acomp from './Accompagnement.vue';

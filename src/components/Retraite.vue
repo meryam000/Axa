@@ -42,7 +42,7 @@
     <div class="et_pb_column et_pb_column_4_4 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough et-last-child">
         <div class="et_pb_module et_pb_text et_pb_text_4  et_pb_text_align_center et_pb_bg_layout_light">
             <div class="et_pb_text_inner">
-                <h2>Choisir le PER AXA/AGIPI, c’est choisir les avantages suivants :</h2>
+                <h2>Nos offres AXA /AGIPI, c’est choisir les avantages suivants :</h2>
             </div>
         </div>
     </div>
@@ -134,7 +134,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
+import { defineComponent } from 'vue';
 import '../assets/Retraite.css';
 import Acomp from './Accompagnement.vue'
 

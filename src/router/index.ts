@@ -5,6 +5,7 @@ import Mutuelle from '../components/Mutuelle.vue';
 import Retraite from '../components/Retraite.vue';
 import Contact from '../components/contact.vue';
 import Enprunteur from '../components/emprunteur.vue';
+import CookiePolicyPage from '../components/CookiePolicyPage.vue';
 
 console.log("Router is being set up...");
 
@@ -56,7 +57,13 @@ const routes = [
     beforeEnter: () => {
       console.log("Navigating to mutuelle");
     }
+  },
+  { path: '/cookie-policy',
+    name: 'CookiePolicy',
+    component: CookiePolicyPage,
+
   }
+
 ];
 
 const router = createRouter({

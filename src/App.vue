@@ -3,6 +3,8 @@
     <NavigationBar />
     <router-view />  <!-- This will load the components based on the route -->
     <FooterComponent />
+    <CookieConsentBanner />
+
   </div>
 </template>
 
@@ -10,12 +12,15 @@
 import { defineComponent } from 'vue';
 import NavigationBar from './components/NavigationBar.vue';
 import FooterComponent from './components/FooterComponent.vue';
+import CookieConsentBanner from './components/CookieConsentBanner.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
     NavigationBar,
     FooterComponent,
+    CookieConsentBanner,
+
   },
 });
 </script>

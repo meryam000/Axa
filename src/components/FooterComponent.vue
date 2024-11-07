@@ -37,9 +37,10 @@
 </a>
                 <a class="text-xs mt-4 text-slate-500" href="#" @click.prevent="showLegalModal = true">Mentions légales</a>
                 <LegalModal :show="showLegalModal" @close="showLegalModal = false" />
-                <a href="#" class="mt-5 text-xs text-slate-500">
-                  Politique de cookies (UE)
-                </a>
+                <a class="text-xs text-slate-500 cursor-pointer">
+                  <router-link to="/cookie-policy">Politique de cookies (UE)</router-link>
+                  </a>
+
                 <p class=" text-left mt-7 text-xs text-slate-500">
                   Agence AXA Gildas Laffaille 2024 - Créé par <a href="https://www.opencertif.fr">OpenCertif</a> 
                 </p>

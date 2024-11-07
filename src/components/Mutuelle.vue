@@ -33,7 +33,9 @@
             </div>
             <div class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_center et_pb_module">
                 <router-link to="/contact">
-                    <a class="et_pb_button et_pb_button_0 et_pb_bg_layout_light">Demander un devis</a>
+                    <button class="mutuelle-cta-button">
+                        <span class="mutuelle-button-text">DEMANDER UN DEVIS</span>
+                    </button>
                 </router-link>
             </div>
         </div>
@@ -115,7 +117,9 @@
         <div class="et_pb_column et_pb_column_4_4 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough et-last-child">
             <div class="et_pb_button_module_wrapper et_pb_button_1_wrapper et_pb_button_alignment_center et_pb_module">
                 <router-link to="/contact">
-                    <a class="et_pb_button et_pb_button_1 et_pb_bg_layout_light">Demander un devis</a>
+                    <button class="mutuelle-cta-button">
+                        <span class="mutuelle-button-text">DEMANDER UN DEVIS</span>
+                    </button>
                 </router-link>
             </div>
         </div>
@@ -233,7 +237,9 @@
         <div class="et_pb_column et_pb_column_4_4 et_pb_column_14  et_pb_css_mix_blend_mode_passthrough et-last-child">
             <div class="et_pb_button_module_wrapper et_pb_button_2_wrapper et_pb_button_alignment_center et_pb_module">
                 <router-link to="/contact">
-                    <a class="et_pb_button et_pb_button_2 et_pb_bg_layout_light">Demander un devis</a>
+                    <button class="mutuelle-cta-button">
+                        <span class="mutuelle-button-text">DEMANDER UN DEVIS</span>
+                    </button>
                 </router-link>
             </div>
         </div>

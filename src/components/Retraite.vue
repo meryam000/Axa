@@ -26,7 +26,9 @@
             </div>
             <div class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_center et_pb_module">
               <router-link to="/contact">
-                <a class="et_pb_button et_pb_button_0 et_pb_bg_layout_light">Demander un devis</a>
+                  <button class="mutuelle-cta-button">
+                      <span class="mutuelle-button-text">DEMANDER UN DEVIS</span>
+                  </button>
               </router-link>
             </div>
         </div>

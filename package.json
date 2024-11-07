@@ -18,6 +18,7 @@
     "axios": "^1.7.7",
     "dotenv": "^16.4.5",
     "emailjs-com": "^3.2.0",
+    "js-cookie": "^3.0.5",
     "vue": "^3.4.37",
     "vue-router": "^4.4.5"
   },

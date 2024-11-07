@@ -25,7 +25,7 @@
             </section>
             <nav class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
               <div class="flex flex-col items-start self-stretch my-auto font-semibold max-md:mt-10">
-                <h3 class="mt-3 text-s text-white">NOS OFFRES</h3>
+                <h3 class="mt-0 text-s text-white">NOS OFFRES</h3>
                 <ul class="mt-9 text-s text-white text-left">
                   <li><router-link to="/mutuelle" class="custom-link">Mutuelle AXA</router-link></li>
                   <li><router-link to="/prevoyance" class="custom-link">Prévoyance</router-link></li>
@@ -35,9 +35,8 @@
                 <a href="https://www.linkedin.com/in/glaffaille/" target="_blank" rel="noopener noreferrer">
   <img loading="lazy" src="../assets/icons/linkedin.svg" alt="LinkedIn" class="object-contain mt-10 w-8 aspect-square max-md:mt-10 filter-white" />
 </a>
-                <a href="#" class="mt-12 text-xs text-slate-500 max-md:mt-10">
-                  Mentions legales
-                </a>
+                <a class="text-xs mt-4 text-slate-500" href="#" @click.prevent="showLegalModal = true">Mentions légales</a>
+                <LegalModal :show="showLegalModal" @close="showLegalModal = false" />
                 <a href="#" class="mt-5 text-xs text-slate-500">
                   Politique de cookies (UE)
                 </a>
@@ -63,11 +62,12 @@
                   Samedi : Fermé                  </p>
                 <div class="flex gap-3.5 mt-6 text-sm text-white whitespace-nowrap max-md:mt-10">
                   <img loading="lazy" src="../assets/icons/mail.svg" alt="" class="object-contain shrink-0 aspect-[1.35] w-[31px] filter-white" />
-                  <h3 class="self-start mt-6">EMAIL</h3>
+                  <h3 class="self-start mt-4">EMAIL</h3>
                 </div>
-                <a href="mailto:agencea2p.gildas.laffaille@axa.fr" class="mt-6 text-sm text-white text-left">
+                <a href="mailto:agencea2p.gildas.laffaille@axa.fr" class="mt-2 text-sm text-white text-left">
                   agencea2p.gildas.laffaille@axa.fr
                 </a>
+                <h3 class="self-start mt-6">ORIAS: 15000669</h3>
               </div>
             </section>
           </div>
@@ -78,11 +78,19 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, ref } from 'vue';
+import LegalModal from './LegalModal.vue';
 
 export default defineComponent({
   name: 'FooterComponent',
-});
+  components: {
+    LegalModal
+  },
+  setup() {
+    const showLegalModal = ref(false);
+    return { showLegalModal };
+  }
+}); 
 </script>
 
 <style>

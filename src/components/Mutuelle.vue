@@ -65,7 +65,7 @@
                     </div>
                     <div class="et_pb_blurb_container">
                         <h4 class="et_pb_module_header"><span>TNS/Indépendants</span></h4>
-                        <div class="et_pb_blurb_description">
+                        <div class="et_pb_blurb_description font-semi-bold">
                             <p>Artisans / Commerçants<br>Gérants majoritaires de sociétés<br>Conjoint collaborateur<br>Professions libérales</p>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                     </div>
                     <div class="et_pb_blurb_container">
                         <h4 class="et_pb_module_header"><span>Séniors</span></h4>
-                        <div class="et_pb_blurb_description">
+                        <div class="et_pb_blurb_description font-semi-bold">
                             <p>Indépendants et salariés à partir de 60 ans<br>Retraités<br>Personnes âgées</p>
                         </div>
                     </div>
@@ -103,7 +103,7 @@
                     </div>
                     <div class="et_pb_blurb_container">
                         <h4 class="et_pb_module_header"><span>Fonctionnaires</span></h4>
-                        <div class="et_pb_blurb_description">
+                        <div class="et_pb_blurb_description font-semi-bold">
                             <p>Fonction Publique Territoriale</p>
                             <p>&nbsp;</p>
                             <p>&nbsp;</p>

@@ -101,10 +101,11 @@
               </div>
             </div>
   
-            <div class="css-0">
-              <p class="MuiTypography-root MuiTypography-body2 css-1wkru3">
-                Conformément à la loi 09-08, vos données à caractère personnel peuvent à tout moment faire l’objet d’un droit d’accès, de modification, de rectification et d’opposition en s’adressant au : [email de réclamation], ou par courrier à l’adresse suivante : Service réclamations, [Nom de l'entreprise], [adresse anonymisée]. Ce traitement a fait l’objet d’une déclaration auprès de la CNDP sous le numéro [numéro anonymisé], en date du [date anonymisée].
-              </p>
+            <div class="css-0"> <br>
+              <h1 class="text-sm">informations obligatoires *</h1>
+              <p class="text-sm bold">
+                Toutes les informations sont confidentielles et non diffusées à des tiers. Vous serez contacté uniquement pour votre demande. Vos
+                coordonnées sont utilisées à cette seule finalité et ne sont pas conservées par la suite, conformément à la réglementation RGPD.              </p>
             </div>
   
             <div class="css-fw9znx">

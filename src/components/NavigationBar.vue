@@ -4,7 +4,8 @@
     <div class="contact-bar">
       <div class="contact-info">
         <i class="fas fa-phone phone-icon"></i>
-        <span class="phone-number">06 82 53 22 41</span>
+        <a href="tel:0682532241" class="mt-0 text-sm text-white font-bold">06 82 53 22 41</a>
+
       </div>
     </div>
 

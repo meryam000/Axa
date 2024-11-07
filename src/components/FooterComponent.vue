@@ -38,7 +38,7 @@
                 <a class="text-xs mt-4 text-slate-500" href="#" @click.prevent="showLegalModal = true">Mentions légales</a>
                 <LegalModal :show="showLegalModal" @close="showLegalModal = false" />
                 <a class="text-xs text-slate-500 cursor-pointer">
-                  <router-link to="/cookie-policy">Politique de cookies (UE)</router-link>
+                  <router-link to="/cookie-policy" class="text-slate-500">Politique de cookies (UE)</router-link>
                   </a>
 
                 <p class=" text-left mt-7 text-xs text-slate-500">

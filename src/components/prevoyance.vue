@@ -52,6 +52,7 @@
           <li>Un barème par profession</li>
           <li>Forfait Maternité</li>
           <li>Psychologique et dos</li>
+          <li>Les violences intrafamiliales</li>
         </ul>
       </div>
       <div class="column">
@@ -73,7 +74,7 @@
     <div class="prevoyance-content">
   <div class="text-image-container">
     <div class="image-button-container">
-      <img src="../assets/images/prev-badge.png" alt="Prevoyance Image" class="description-image">
+      <img src="../assets/images/prev-badge.jpg" alt="Prevoyance Image" class="description-image">
     </div>
     <p class="description-text">
       <strong>En optant pour le CAP, vous accédez à un contrat distingué par la profession et récompensé à plusieurs reprises pour la qualité de ses prestations.</strong>

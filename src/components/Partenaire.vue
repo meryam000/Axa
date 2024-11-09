@@ -29,6 +29,7 @@
       <img src="../assets/images/APRS 1.png" alt="APRS" />
       <img src="../assets/images/axa_banque.png" alt="AXA Banque" />
       <img src="../assets/images/itelis.png" alt="Itelis" />
+      <img src="../assets/images/drouot-estate.png" alt="drouot-estate" />
       <img src="../assets/images/anpere.png" alt="Anpere" />
     </div>
   </section>
@@ -46,6 +47,7 @@ export default defineComponent({
       '/src/assets/images/APRS 1.png',
       '/src/assets/images/axa_banque.png',
       '/src/assets/images/itelis.png',
+      '/src/assets/images/drouot-estate.png',
       '/src/assets/images/anpere.png',
     ];
     

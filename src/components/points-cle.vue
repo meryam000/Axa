@@ -15,7 +15,7 @@
           </button>
           <p v-if="showMore.card1" class="offering-more-info">En cas d’arrêt de travail, la garantie indemnités journalières vous permet de maintenir vos revenus jusqu’à votre reprise du travail.
 Nous définissons le montant et la franchise (délai avant indemnisation) pour compléter les prestations de votre régime obligatoire.
-Tout ou partie de vos charges professionnelles peuvent également être couvertes par le contrat afin de ne pas mettre en péril votre activité professionnelle, ajouter audela de 90 jours prise en charge axa agipi.</p>
+Tout ou partie de vos charges professionnelles peuvent également être couvertes par le contrat afin de ne pas mettre en péril votre activité professionnelle, audela de 90 jours prise en charge axa agipi.</p>
         </div>
 
         <!-- Card 2 -->
@@ -37,12 +37,9 @@ Tout ou partie de vos charges professionnelles peuvent également être couverte
           <button class="view-more-button" @click="toggleViewMore('card3')">
             En savoir plus
           </button>
-          <p v-if="showMore.card3" class="offering-more-info">En cas de décès vous pouvez protéger vos proches et ainsi assurer une continuité de revenus au sein de votre foyer.
-            Ces prestations peuvent être de 3 natures :
-
-            versement d’un capital à vos proches
-            versement d’une pension de conjoint
-            versement d’une rente éducation à vos enfants jusqu’à leurs 26 ans (sans condition de poursuite d’études).</p>
+          <p v-if="showMore.card3" class="offering-more-info">
+            Le décès est couvert par le contrat en remboursant à votre banque le capital restant dû au jour du décès. La perte totale ou irréversible d’autonomie est également prise en charge jusqu’à 70 ans.
+          </p>
         </div>
       </div>
     </div>

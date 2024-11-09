@@ -36,9 +36,9 @@
       const hasAnimated = ref(false);
       const statisticsSection = ref<HTMLElement | null>(null);
   
-      const targetValue1 = 23;
-      const targetValue2 = 705485;
-      const targetValue3 = 1009799;
+      const targetValue1 = 47;
+      const targetValue2 = 752950;
+      const targetValue3 = 1093896;
   
       // Function for the count-up animation
       const countUp = (currentValue: any, targetValue: number, duration: number) => {

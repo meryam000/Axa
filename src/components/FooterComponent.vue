@@ -11,7 +11,7 @@
                   <h1 class="company-name mt-6">Cabinet Gildas Laffaille</h1>
                       <p class="company-subtitle mb-0">AXA Prévoyance & Patrimoine</p>
                   <p class="self-stretch mt-4 text-base text-slate-300 text-left">
-                    Pour vous et vos proches, votre<br />conseiller AxA vous accompagne au<br />quotidien, par telephone, dans la<br />gestion de votre contrat et pour<br />répondre à toutes vos questions.
+                    Pour vous et vos proches, votre<br />conseiller AXA vous accompagne au<br />quotidien, dans la<br />gestion de votre contrat et pour<br />répondre à toutes vos questions.
                   </p>
                 </div>
                 <router-link to="/contact">
@@ -27,7 +27,7 @@
               <div class="flex flex-col items-start self-stretch my-auto font-semibold max-md:mt-10">
                 <h3 class="mt-0 text-s text-white">NOS OFFRES</h3>
                 <ul class="mt-9 text-s text-white text-left">
-                  <li><router-link to="/mutuelle" class="custom-link">Mutuelle AXA</router-link></li>
+                  <li><router-link to="/mutuelle" class="custom-link">Mutuelle</router-link></li>
                   <li><router-link to="/prevoyance" class="custom-link">Prévoyance</router-link></li>
                   <li><router-link to="/assurance-emprunteur" class="custom-link">Assurance Emprunteur</router-link></li>
                   <li><router-link to="/per-retraite" class="custom-link">PER Retraite</router-link></li>
@@ -46,7 +46,7 @@
                 </p>
               </div>
             </nav>
-            <section class="flex flex-col ml-5 w-[36%] max-md:ml-0 max-md:w-full">
+            <section class="flex flex-col ml-5 w-[39%] max-md:ml-0 max-md:w-full">
               <div class="flex flex-col items-start mt-3 w-full font-semibold max-md:mt-10">
                 <h3 class="text-s text-white">LIGNE DIRECT</h3>
                 <a href="tel:0682532241" class="mt-0 text-3xl text-stone-400">06 82 53 22 41</a>
@@ -54,13 +54,24 @@
                   <img loading="lazy" src="../assets/icons/time.svg" alt="" class="object-contain shrink-0 aspect-[1.35] w-[31px] filter-white" />
                   <h3 class="self-start mt-6">HORAIRES</h3>
                 </div>
-                <p class="mt-4 text-xs text-white text-left ml-4">
-                  Lundi : 09h00 - 13h00 et 14h00 - 19h00 (sur RDV) <br>
-                  Mardi : 09h00 - 13h00 et 14h00 - 20h00 (sur RDV) <br>
+                <p class="text-xs text-white text-left">
+                  Lundi : 09h00 - 13h00 et 14h00 - 19h00 (sur RDV)
+                </p>
+                <p class="text-xs text-white text-left">
+                  Mardi : 09h00 - 13h00 et 14h00 - 20h00 (sur RDV) 
+                </p>
+                <p class="text-xs text-white text-left">
                   Mercredi : 09h00 - 13h00 et 14h00 - 19h00 (sur RDV) <br>
-                  Jeudi : 09h00 - 13h00 et 14h00 - 20h00 (sur RDV) <br>
-                  Vendredi : 09h00 - 13h00 et 14h00 - 19h00 (sur RDV) <br>
-                  Samedi : Fermé                  </p>
+                </p>
+                <p class="text-xs text-white text-left">
+                  Jeudi : 09h00 - 13h00 et 14h00 - 20h00 (sur RDV)
+                </p>
+                <p class="text-xs text-white text-left">
+                  Vendredi : 09h00 - 13h00 et 14h00 - 19h00 (sur RDV) 
+                </p>
+                <p class="text-xs text-white text-left">
+                  Samedi : Fermé
+                </p>
                 <div class="flex gap-3.5 mt-6 text-sm text-white whitespace-nowrap max-md:mt-10">
                   <img loading="lazy" src="../assets/icons/mail.svg" alt="" class="object-contain shrink-0 aspect-[1.35] w-[31px] filter-white" />
                   <h3 class="self-start mt-4">EMAIL</h3>

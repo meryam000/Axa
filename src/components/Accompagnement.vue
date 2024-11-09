@@ -42,7 +42,7 @@ export default defineComponent({
             › Un accès gratuit à différents services (téléconsultation, réseau ITELIS, Hospiway ...).
           `;
         case 'Prevoyance':
-          return "Nous vous accompagnons dans la mise en place de solutions de prévoyance pour sécuriser votre avenir.";
+          return "La prévoyance doit être la base de votre gestion patrimoniale. Un bilan complet de votre situation personnelle et professionnelle nous permettra de vous conseiller des solutions spécifiques et adaptées à vos objectifs et besoins. Nous assurons ensuite un suivi régulier de votre contrat afin de vous accompagner au mieux dans l’évolution de votre situation.";
         case 'enprunteur':
         return `
             Nous vous accompagnons de la demande de changement du contrat d’assurance emprunteur jusqu’à la mise en place de la nouvelle assurance.<br><br>
@@ -77,7 +77,7 @@ export default defineComponent({
   p{
     padding-top: 30px;
     color:white;
-    text-align: center;
+    text-align: left;
   }
   
   .background-image {
@@ -168,7 +168,6 @@ export default defineComponent({
   .cta-button {
     background-color: #9b2515;
     align-self: center;
-    width: 301px;
     max-width: 100%;
     font-size: 16px;
     color: #f2e4e2;

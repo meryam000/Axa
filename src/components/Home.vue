@@ -5,6 +5,7 @@
       <OptimizationServices />
       <Stats />
       <AboutUs />
+      <Avis />
       <Partenaire />
     </div>
   </template>
@@ -17,6 +18,7 @@
   import Stats from './Stats.vue';
   import AboutUs from './AboutUs.vue';
   import Partenaire from './Partenaire.vue';
+  import Avis from './avis.vue';
   
   export default defineComponent({
     name: 'Home',
@@ -27,6 +29,7 @@
       Stats,
       AboutUs,
       Partenaire,
+      Avis
     },
   });
   </script>

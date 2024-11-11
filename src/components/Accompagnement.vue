@@ -227,6 +227,7 @@ export default defineComponent({
   
     .cta-button {
       padding: 26px 20px;
+      width: 60%;
     }
   
     .footer-line {

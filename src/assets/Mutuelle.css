@@ -645,7 +645,7 @@ p{
     padding-bottom:1em
 }
 p:not(.has-background):last-of-type{
-    padding-bottom:0
+    padding: 5px 30px;
 }
 .et_pb_blurb_content p:last-of-type{
     padding-bottom:0

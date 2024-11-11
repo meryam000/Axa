@@ -29,12 +29,12 @@
                 <ul class="mt-9 text-s text-white text-left">
                   <li><router-link to="/mutuelle" class="custom-link">Mutuelle</router-link></li>
                   <li><router-link to="/prevoyance" class="custom-link">Prévoyance</router-link></li>
-                  <li><router-link to="/assurance-emprunteur" class="custom-link">Assurance Emprunteur</router-link></li>
+                  <li><router-link to="/assurance-emprunteur" class="custom-link">Assurance Emprunteur.</router-link></li>
                   <li><router-link to="/per-retraite" class="custom-link">PER Retraite</router-link></li>
                 </ul>
                 <a href="https://www.linkedin.com/in/glaffaille/" target="_blank" rel="noopener noreferrer">
-  <img loading="lazy" src="../assets/icons/linkedin.svg" alt="LinkedIn" class="object-contain mt-10 w-8 aspect-square max-md:mt-10 filter-white" />
-</a>
+                  <img loading="lazy" src="../assets/icons/linkedin.svg" alt="LinkedIn" class="object-contain mt-10 w-8 aspect-square max-md:mt-10 filter-white" />
+                </a>
                 <a class="text-xs mt-4 text-slate-500" href="#" @click.prevent="showLegalModal = true">Mentions légales</a>
                 <LegalModal :show="showLegalModal" @close="showLegalModal = false" />
                 <a class="text-xs text-slate-500 cursor-pointer">

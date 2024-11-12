@@ -151,7 +151,7 @@
             </div>
             <div class="et_pb_module et_pb_text et_pb_text_7  et_pb_text_align_left et_pb_bg_layout_light">
                 <div class="et_pb_text_inner">
-                    <p>0 € de reste à charge sur les verres et montures avec le 100 % Santé.<br><strong><span id="style-18kJp" class="style-18kJp">Jusqu’à</span></strong> 549 € sur les verres.</p>
+                    <p>0 € de reste à charge sur les verres et montures avec le 100 % Santé.<br><strong><span id="style-18kJp" class="style-18kJp">Jusqu’à  549 € </span></strong>sur les verres.</p>
                 </div>
             </div>
         </div>
@@ -167,7 +167,7 @@
                 </div>
             </div>
             <div class="et_pb_module et_pb_text et_pb_text_9  et_pb_text_align_left et_pb_bg_layout_light">
-                <div class="et_pb_text_inner">0 € de reste à charge sur les soins avec le 100 % Santé. <strong><span id="style-18kJp" class="style-18kJp">Jusqu’à</span></strong> 900 € / an de remboursement sur les prothèses.</div>
+                <div class="et_pb_text_inner">0 € de reste à charge sur les soins avec le 100 % Santé. <strong><span id="style-18kJp" class="style-18kJp">Jusqu’à 900 € / an</span></strong> de remboursement sur les prothèses.</div>
             </div>
         </div>
         <div class="et_pb_column et_pb_column_1_3 et_pb_column_10  et_pb_css_mix_blend_mode_passthrough et-last-child">
@@ -182,7 +182,7 @@
                 </div>
             </div>
             <div class="et_pb_module et_pb_text et_pb_text_11  et_pb_text_align_left et_pb_bg_layout_light">
-                <div class="et_pb_text_inner"><strong><span id="style-18kJp" class="style-18kJp">Jusqu’à</span></strong> 100 € par jour pour la chambre particulière.</div>
+                <div class="et_pb_text_inner"><strong><span id="style-18kJp" class="style-18kJp">Jusqu’à 100 €</span></strong>  par jour pour la chambre particulière.</div>
             </div>
         </div>
     </div>
@@ -199,7 +199,7 @@
                 </div>
             </div>
             <div class="et_pb_module et_pb_text et_pb_text_13  et_pb_text_align_left et_pb_bg_layout_light">
-                <div class="et_pb_text_inner"><strong><span id="style-18kJp" class="style-18kJp">Jusqu’à</span></strong> 65 € par séance et 150 €/ an chez le psychothérapeute, ostéopathe, chiropracteur, acupuncteur, pédicure et podologue.</div>
+                <div class="et_pb_text_inner"><strong><span id="style-18kJp" class="style-18kJp">Jusqu’à 65 €</span></strong> par séance et <strong><span id="style-18kJp" class="style-18kJp">150 €/ an</span></strong> chez le psychothérapeute, ostéopathe, chiropracteur, acupuncteur, pédicure et podologue.</div>
             </div>
         </div>
         <div class="et_pb_column et_pb_column_1_3 et_pb_column_12  et_pb_css_mix_blend_mode_passthrough">
@@ -214,7 +214,7 @@
                 </div>
             </div>
             <div class="et_pb_module et_pb_text et_pb_text_15  et_pb_text_align_left et_pb_bg_layout_light">
-                <div class="et_pb_text_inner">0 € de reste à charge dans le cadre du 100 % Santé.<br> <strong><span id="style-18kJp" class="style-18kJp">Jusqu’à</span></strong> 1 700 € sur les appareils auditifs.</div>
+                <div class="et_pb_text_inner">0 € de reste à charge dans le cadre du 100 % Santé.<br> <strong><span id="style-18kJp" class="style-18kJp">Jusqu’à 1 700 €</span></strong> sur les appareils auditifs.</div>
             </div>
         </div>
         <div class="et_pb_column et_pb_column_1_3 et_pb_column_13  et_pb_css_mix_blend_mode_passthrough et-last-child">
@@ -229,7 +229,7 @@
                 </div>
             </div>
             <div class="et_pb_module et_pb_text et_pb_text_17  et_pb_text_align_left et_pb_bg_layout_light">
-                <div class="et_pb_text_inner"><strong><span id="style-18kJp" class="style-18kJp">Jusqu’à</span></strong> 50 € par an pour vos ordonnances de médicaments non remboursés par la Sécurité sociale.</div>
+                <div class="et_pb_text_inner"><strong><span id="style-18kJp" class="style-18kJp">Jusqu’à 50 €</span></strong> par an pour vos ordonnances de médicaments non remboursés par la Sécurité sociale.</div>
             </div>
         </div>
     </div>

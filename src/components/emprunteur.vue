@@ -24,7 +24,7 @@
                     <h3>Il est désormais possible de changer d'assurance de prêt immobilier à tout moment, 
                         offrant ainsi l'opportunité de faire de substantielles économies. </h3>
                     <h3>Que vous soyez en phase d'achat immobilier ou que vous ayez déjà souscrit un prêt immobilier, 
-                        on vous accompagne pour les démarches permettant de changer votre assurance emprunteur
+                        on vous accompagne pour les démarches permettant de changer votre assurance emprunteur.
                     </h3>
                 </div>
             </div>
@@ -111,8 +111,8 @@
             <div class="et_pb_text_inner">
 
                 <h3><i class="fa fa-check fa-lg"></i> Un accompagnement dans les démarches administratives par un expert de l’assurance de prêt</h3>
-                <h3><i class="fa fa-check fa-lg"></i> Jusqu’à <span id="style-HEwIa" class="style-HEwIa"><strong>50%</strong></span> d’économies à garanties équivalentes (ou supérieures)</h3>
-                <h3><i class="fa fa-check fa-lg"></i> Jusqu’à <span id="style-HEwIa" class="style-HEwIa"><strong>20%</strong></span> de réduction en cas de souscription conjointe</h3>
+                <h3><i class="fa fa-check fa-lg"></i><span id="style-HEwIa" class="style-HEwIa"><strong> Jusqu’à 50%</strong></span> d’économies à garanties équivalentes (ou supérieures)</h3>
+                <h3><i class="fa fa-check fa-lg"></i><span id="style-HEwIa" class="style-HEwIa"><strong> Jusqu’à 20%</strong></span> de réduction en cas de souscription conjointe</h3>
                 <h3><i class="fa fa-check fa-lg"></i> Pas de sélection médicale en dessous de 200 000€ emprunté ou moins de 60 ans à l’échéance du prêt</h3>
                 <h3><i class="fa fa-check fa-lg"></i> Choix d’options spécifiques</h3>
                 <h3><i class="fa fa-check fa-lg"></i> Couverture prêt personnel et/ou professionnel</h3>
@@ -127,21 +127,21 @@
     </div>
 </div>
 
-<PointsCle/>
+<PtAssurance/>
 <Acomp/>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import PointsCle from './points-cle.vue';
+import PtAssurance from './ptAssurance.vue';
 import '../assets/emprunteur.css';
 import Acomp from './Accompagnement.vue';
 
 export default defineComponent({
   name: 'Enprunteur',
   components: {
-    PointsCle,
-    Acomp
+    Acomp,
+    PtAssurance
   },
   setup() {
   }

@@ -24,11 +24,11 @@
             </li>
             <li class="service-item">
               <img loading="lazy" src="../assets/icons/check.svg" class="service-icon" alt="Service icon" />
-              <p>Prevoyance santé assurance emprunteur</p>
+              <p>Prevoyance, santé, assurance emprunteur</p>
             </li>
             <li class="service-item">
               <img loading="lazy" src="../assets/icons/check.svg" class="service-icon" alt="Service icon" />
-              <p>Retraite assurance vie</p>
+              <p>Retraite, assurance-vie</p>
             </li>
             <li class="service-item">
               <img loading="lazy" src="../assets/icons/check.svg" class="service-icon" alt="Service icon" />

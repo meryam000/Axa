@@ -12,10 +12,8 @@
             <div class="transparent-bg">
               <img loading="lazy" src="../assets/icons/prevoyance-icon.svg" class="prevoyance-insurance-icon" />
               <p class="prevoyance-description">
-                L'assurance Prévoyance Indépendants AxA AGIPI vous permet de bénéficier de<br />
-                revenus complémentaires en cas d'incapacité de travail, d'invalidité et de décès<br />
-                Le contrat complète ainsi les remboursements prévus par votre régime<br />
-                obligatoire
+                L'assurance Prévoyance Indépendants AXA AGIPI vous permet de bénéficier de revenus complémentaires en cas d'incapacité de travail, d'invalidité et de décès.<br /> <br>
+                Le contrat complète ainsi les remboursements prévus par votre régime obligatoire.
               </p>
             </div>
             <router-link to="/contact">

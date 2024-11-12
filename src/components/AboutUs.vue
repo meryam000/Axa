@@ -17,7 +17,7 @@
                 <strong>Gildas Laffaille</strong>
                 <span>, votre Agent général d'assurances </span>
                 <strong>AXA Prévoyance et Patrimoine</strong>
-                <span> Situé dans les hauts de seine (92), pour vous aider à protéger ce qui compte vraiment ! </span>
+                <span> situé dans les hauts de seine (92), pour vous aider à protéger ce qui compte vraiment ! </span>
               </p>
               <p class="description">
                 Expert en protection financière et gestion patrimoniale, je suis là pour accompagner les particuliers et les professionnels (professions libérales, chefs d'entreprises, sociétés) dans toutes leurs démarches.

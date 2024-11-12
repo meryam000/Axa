@@ -29,7 +29,7 @@
                 <ul class="mt-9 text-s text-white text-left">
                   <li><router-link to="/mutuelle" class="custom-link">Mutuelle</router-link></li>
                   <li><router-link to="/prevoyance" class="custom-link">Prévoyance</router-link></li>
-                  <li><router-link to="/assurance-emprunteur" class="custom-link">Assurance Emprunteur.</router-link></li>
+                  <li><router-link to="/assurance-emprunteur" class="custom-link">Assurance Emprunteur</router-link></li>
                   <li><router-link to="/per-retraite" class="custom-link">PER Retraite</router-link></li>
                 </ul>
                 <a href="https://www.linkedin.com/in/glaffaille/" target="_blank" rel="noopener noreferrer">

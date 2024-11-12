@@ -15,7 +15,7 @@
           </button>
           <p v-if="showMore.card1" class="offering-more-info">En cas d’arrêt de travail, la garantie indemnités journalières vous permet de maintenir vos revenus jusqu’à votre reprise du travail.
 Nous définissons le montant et la franchise (délai avant indemnisation) pour compléter les prestations de votre régime obligatoire.
-Tout ou partie de vos charges professionnelles peuvent également être couvertes par le contrat afin de ne pas mettre en péril votre activité professionnelle, audela de 90 jours prise en charge axa agipi.</p>
+Tout ou partie de vos charges professionnelles peuvent également être couvertes par le contrat afin de ne pas mettre en péril votre activité professionnelle, franchises bonifiées.</p>
         </div>
 
         <!-- Card 2 -->
@@ -34,6 +34,7 @@ Tout ou partie de vos charges professionnelles peuvent également être couverte
           <i class="offering-title fa fa-bed fa-lg"></i>
           <h4 class="offering-title">Décès</h4>
           <p class="offering-description">Pension de conjoint, Rente éducation, Capital</p>
+          <br>
           <button class="view-more-button" @click="toggleViewMore('card3')">
             En savoir plus
           </button>

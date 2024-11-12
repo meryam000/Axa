@@ -281,7 +281,6 @@ a{
 }
 .et_pb_button:after{
     font-family:ETmodules!important;
-    speak:none;
     font-style:normal;
     font-weight:400;
     -webkit-font-feature-settings:normal;
@@ -362,7 +361,6 @@ h1{
 }
 .et-pb-icon{
     font-family:ETmodules;
-    speak:none;
     font-weight:400;
     -webkit-font-feature-settings:normal;
     font-feature-settings:normal;
@@ -438,7 +436,7 @@ strong{
     font-weight:700
 }
 #style-18kJp.style-18kJp{
-    color:navy
+    color:rgb(24, 24, 198)
 }
 #style-HEwIa.style-HEwIa{
     color:navy
@@ -796,7 +794,6 @@ p:not(.has-background):last-of-type{
 }
 .et_pb_button::after{
     font-family:ETmodules!important;
-    speak:none;
     font-style:normal;
     font-weight:400;
     -webkit-font-feature-settings:normal;

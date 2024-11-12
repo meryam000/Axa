@@ -130,6 +130,7 @@
         </div>
     </div>
 </div>
+<img src="../assets/images/award.png" alt="" class="mx-auto my-4 block">
 <Acomp/>
 </template>
 

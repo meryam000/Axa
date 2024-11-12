@@ -21,7 +21,7 @@
         {{ title }}
       </h2>
       <!-- Dynamic Description (Centered and Consistent Height) -->
-      <p class="self-center mt-4 text-xs text-neutral-400 text-center overflow-hidden h-[60px]">
+      <p class="self-center mt-4 text-xs text-neutral-400 text-center overflow-hidden h-[95px]">
         {{ description }}
       </p>
       <!-- Dynamic Button -->

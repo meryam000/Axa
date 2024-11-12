@@ -22,7 +22,7 @@
             </a>
           </div>
         </div>
-        <a class="button contact-button" href="https://www.google.com/search?q=EI-+AXA+Pr%C3%A9voyance+%26+Patrimoine+Gildas+Laffaille+avis+google&oq=EI-+AXA+Pr%C3%A9voyance+%26+Patrimoine+Gildas+Laffaille+avis+google&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDQwNTZqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8#lrd=0x47e67a73377c8847:0xefd7153188b66ca,1,,,," target="_blank" rel="noopener noreferrer">
+        <a class="button contact-button" href="https://www.google.com/search?sca_esv=2082a285961d999d&sxsrf=ADLYWIKKTt5A0jd38kRg0isbXv4uj78Qnw:1731408153348&uds=ADvngMjcH0KdF7qGWtwTBrP0nt7dva1qePjeQe8hELeDTDr7isCJHgjb3_ZJ-0P0FeCQwB1ltFf7xxPZQi1fSm0iPmllGxe_Y1HFipvMP1waOilJQolHB1Jdfd8OyxpmHWAO5avZU2XlvrsXyHZ_lidZe51M7WhxjK7GhUaun6QJgjozRC6LBrm3j3g1yFo6WyGuftlErXbI&si=ACC90nwjPmqJHrCEt6ewASzksVFQDX8zco_7MgBaIawvaF4-7k6aeJk2cEAFvf1RPqgUlctHBRzz7wCQ8YvZlTdhkB6R8VRjyNub4Qd8IvGb6cQuKHBYkwE%3D&q=EI-+AXA+Pr%C3%A9voyance+%26+Patrimoine+Gildas+Laffaille+Avis&sa=X&ved=2ahUKEwij5cP_zdaJAxVCVKQEHawmI3AQ3PALegQISxAF&biw=1536&bih=695&dpr=1.25" target="_blank" rel="noopener noreferrer">
           Voir les avis Google
         </a>
       </div>
@@ -33,11 +33,15 @@
 export default {
   name: "EmbedSocialReviews",
   mounted() {
+    // Check if the script is already loaded
     if (!document.getElementById("EmbedSocialHashtagScript")) {
+      // Create a new script element
       const script = document.createElement("script");
       script.id = "EmbedSocialHashtagScript";
       script.src = "https://embedsocial.com/cdn/ht.js";
       script.async = true;
+
+      // Append the script to the head of the document
       document.head.appendChild(script);
     }
   },

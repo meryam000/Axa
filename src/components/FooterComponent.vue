@@ -9,10 +9,10 @@
                 <div class="flex flex-col items-start pl-1.5">
                   <img loading="lazy" src="../assets/images/axa_white.png" alt="" class="object-contain rounded-xl aspect-[0.98] w-[62px]" />
                   <h1 class="company-name mt-6">Cabinet Gildas Laffaille</h1>
-                      <p class="company-subtitle mb-0">AXA Prévoyance & Patrimoine</p>
-                  <p class="self-stretch mt-4 text-base text-slate-300 text-left">
-                    Pour vous et vos proches, votre<br />conseiller AXA vous accompagne au<br />quotidien, dans la<br />gestion de votre contrat et pour<br />répondre à toutes vos questions.
-                  </p>
+                    <p class="company-subtitle mb-0">AXA Prévoyance & Patrimoine</p>
+                    <p class="self-stretch mt-4 text-base text-slate-300 text-left p-0">
+                      Pour vous et vos proches, votre<br />conseiller AXA vous accompagne au<br />quotidien, dans la<br />gestion de votre contrat et pour<br />répondre à toutes vos questions.
+                    </p>
                 </div>
                 <router-link to="/contact">
                   <a class="flex flex-col px-1 mt-10 max-w-full text-sm text-center bg-white rounded-3xl border border-indigo-800 border-solid text-stone-400 w-[232px] max-md:mt-10 h-12">
@@ -69,7 +69,7 @@
                 <p class="text-xs text-white text-left">
                   Vendredi : 09h00 - 13h00 et 14h00 - 19h00 (sur RDV) 
                 </p>
-                <p class="text-xs text-white text-left">
+                <p class="text-xs text-white text-left p-0">
                   Samedi : Fermé
                 </p>
                 <div class="flex gap-3.5 mt-6 text-sm text-white whitespace-nowrap max-md:mt-10">
@@ -121,4 +121,7 @@ export default defineComponent({
   color: #c9b085; /* Optional: a different color on hover */
 }
 
+.p-0 {
+  padding: 3px 0px !important;
+}
 </style>

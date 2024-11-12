@@ -32,16 +32,13 @@
             </li>
             <li class="service-item">
               <img loading="lazy" src="../assets/icons/check.svg" class="service-icon" alt="Service icon" />
-              <p>Optimisation revenu dirigeant entreprise</p>
+              <p>Optimisation des revenus du dirigeant d'entreprise</p>
             </li>
             <li class="service-item">
               <img loading="lazy" src="../assets/icons/check.svg" class="service-icon" alt="Service icon" />
               <p>Optimisation de la transmission</p>
             </li>
-            <li class="service-item">
-              <img loading="lazy" src="../assets/icons/check.svg" class="service-icon" alt="Service icon" />
-              <p>Optimisation des revenus du dirigeant d'entreprise</p>
-            </li>
+            
           </ul>
         </div>
       </div>

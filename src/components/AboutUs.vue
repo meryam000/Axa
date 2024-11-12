@@ -27,7 +27,7 @@
                 Mon objectif ? Être à vos côtés à chaque étape de votre vie, pour répondre à toutes vos questions et vous offrir des solutions vraiment personnalisées.
               </p>
               <p class="description">
-                Alors, prêt(e) à préparer votre avenir en toute sérénité ? Contactez-moi et ensemble, atteignons vos objectifs !
+              Alors, prêt(e) à préparer votre avenir en toute sérénité ? Contactez-moi et ensemble, atteignons vos objectifs !
               </p>
               <router-link to="/contact">
                 <button class="contact-button">CONTACTEZ-NOUS</button>

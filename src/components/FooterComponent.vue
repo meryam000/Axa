@@ -9,9 +9,9 @@
                 <div class="flex flex-col items-start pl-1.5">
                   <img loading="lazy" src="../assets/images/axa_white.png" alt="" class="object-contain rounded-xl aspect-[0.98] w-[62px]" />
                   <h1 class="company-name mt-6">Cabinet Gildas Laffaille</h1>
-                    <p class="company-subtitle mb-0">AXA Prévoyance & Patrimoine</p>
-                    <p class="self-stretch mt-4 text-base text-slate-300 text-left p-0">
-                      Pour vous et vos proches, votre<br />conseiller AXA vous accompagne au<br />quotidien, dans la<br />gestion de votre contrat et pour<br />répondre à toutes vos questions.
+                    <p class="text-white text-[16px] mb-0">AXA Prévoyance & Patrimoine</p>
+                    <p class="self-stretch mt-10 text-base text-slate-300 text-left p-0">
+                      Pour vous et vos proches, votre<br />conseiller AXA vous accompagne au<br />quotidien, dans la gestion de votre contrat et pour répondre à toutes vos questions.
                     </p>
                 </div>
                 <router-link to="/contact">
@@ -25,7 +25,7 @@
             </section>
             <nav class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
               <div class="flex flex-col items-start self-stretch my-auto font-semibold max-md:mt-10">
-                <h3 class="mt-0 text-s text-white">NOS OFFRES</h3>
+                <h3 class=" text-s text-white">NOS OFFRES</h3>
                 <ul class="mt-9 text-s text-white text-left">
                   <li><router-link to="/mutuelle" class="custom-link">Mutuelle</router-link></li>
                   <li><router-link to="/prevoyance" class="custom-link">Prévoyance</router-link></li>
@@ -41,13 +41,13 @@
                   <router-link to="/cookie-policy" class="text-slate-500">Politique de cookies (UE)</router-link>
                   </a>
 
-                <p class=" text-left mt-7 text-xs text-slate-500">
+                <h1 class=" text-left mt-7 text-slate-500 text-xs bold">
                   Agence AXA Gildas Laffaille 2024 - Créé par <a href="https://www.opencertif.fr">OpenCertif</a> 
-                </p>
+                </h1>
               </div>
             </nav>
             <section class="flex flex-col ml-5 w-[39%] max-md:ml-0 max-md:w-full">
-              <div class="flex flex-col items-start mt-3 w-full font-semibold max-md:mt-10">
+              <div class="flex flex-col items-start mt-0 w-full font-semibold max-md:mt-10">
                 <h3 class="text-s text-white">LIGNE DIRECT</h3>
                 <a href="tel:0682532241" class="mt-0 text-3xl text-stone-400">06 82 53 22 41</a>
                 <div class="flex gap-3.5 mt-6 text-sm text-gray-100 whitespace-nowrap max-md:mt-10 max-md:ml-0.5">

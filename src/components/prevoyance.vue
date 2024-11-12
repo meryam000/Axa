@@ -65,6 +65,8 @@
           <li>Rente éducation</li>
           <li>Capital maladie grave</li>
           <li>Délai de rechute</li>
+          <li>Franchises bonifiées</li>
+
         </ul>
       </div>
     </div>

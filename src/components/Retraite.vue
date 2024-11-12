@@ -130,7 +130,14 @@
         </div>
     </div>
 </div>
-<img src="../assets/images/award.png" alt="" class="mx-auto my-4 block">
+<h1 class="title-keys">Votre contrat Retraite multi-récompensé</h1>
+    <div class="prevoyance-content">
+  <div class="text-image-container">
+    <div class="image-button-container">
+      <img src="../assets/images/award.png" alt="Prevoyance Image" class="w-64 h-auto mx-auto">
+    </div>
+  </div>
+</div>
 <Acomp/>
 </template>
 

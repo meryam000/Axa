@@ -31,6 +31,8 @@
                   <li><router-link to="/prevoyance" class="custom-link">Prévoyance</router-link></li>
                   <li><router-link to="/assurance-emprunteur" class="custom-link">Assurance Emprunteur</router-link></li>
                   <li><router-link to="/per-retraite" class="custom-link">PER Retraite</router-link></li>
+                  <li><router-link to="/contact" class="custom-link">Contact</router-link></li>
+
                 </ul>
                 <a href="https://www.linkedin.com/in/glaffaille/" target="_blank" rel="noopener noreferrer">
                   <img loading="lazy" src="../assets/icons/linkedin.svg" alt="LinkedIn" class="object-contain mt-10 w-8 aspect-square max-md:mt-10 filter-white" />

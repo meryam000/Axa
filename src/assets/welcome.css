@@ -72,7 +72,7 @@
   font-weight: 500;
 }
 
-.cta-button {
+.cta-button-weelcome {
   background-color: #9b2515;
   margin-top: 17px;
   font-size: 14px;
@@ -83,7 +83,7 @@
   transition: all 0.3s ease;
 }
 
-.cta-button:hover {
+.cta-button-weelcome:hover {
   background-color: #c43126;
   color: #ffffff;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -103,7 +103,7 @@
     font-size: 40px;
   }
 
-  .cta-button {
+  .cta-button-weelcome {
     padding: 20px;
   }
   .hero-background {

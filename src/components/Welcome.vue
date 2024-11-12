@@ -22,7 +22,7 @@
             Protection sociale et gestion de patrimoine pour les Particuliers, Professions libérales ou Entreprises.
           </p>
           <router-link to="/contact">
-            <button class="cta-button">DEMANDER UN DEVIS</button>
+            <button class="cta-button-weelcome">DEMANDER UN DEVIS</button>
           </router-link>
         </div>
       </div>
